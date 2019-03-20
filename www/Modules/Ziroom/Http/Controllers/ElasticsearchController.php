@@ -58,5 +58,29 @@ class ElasticsearchController extends Controller
         return $response;
     }
 
+    //存储数据
+    public function save_data(){
+        $blogs = \Modules\Ziroom\Entities\blogs::orderBy('id','desc')->take(10)->get();
+        $res = [];
+        foreach ($blogs as $blog) {
+            $params = [
+                'index' => 'blogs',
+                'type' => 'news',
+                'id' => $blog->id,
+                'body' => [
+                    'title' => $blog->title,
+                    'content' => $blog->content,
+                    'author' => $blog->author,
+                    'created_at' => $blog->created_at,
+                    'updated_at' => $blog->update_at
+                ]
+            ];
+            $res[] = $this->es_client->index($params);
+
+        }
+        dump($res);
+
+    }
+
 
 }
