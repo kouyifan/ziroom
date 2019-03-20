@@ -93,7 +93,7 @@ class ElasticsearchController extends Controller
         $json = '{
             "query" : {
                 "match" : {
-                    "title" : "'.$keywords.'"
+                    "content" : "'.$keywords.'"
                 }
             }
         }';
@@ -112,15 +112,14 @@ class ElasticsearchController extends Controller
     public function update_data(){
         $post = \request()->post();
 
-
         $params = [
             'index' => 'blogs',
             'type' => 'news',
             'id' => $post['id'],
             'body' => [
                 'doc' => [
-                    'title' =>  !empty($post['title']) ? $post['title'] : '',
-                    'content' =>  !empty($post['title']) ? $post['title'] : '',
+                    'title' =>  $post['title'],
+                    'content' =>  $post['content'],
                 ]
             ]
         ];
