@@ -97,9 +97,6 @@ class ElasticsearchController extends Controller
                 'should' => [
                     'term' => [
                         'title' => $keywords,
-                    ],
-                    'match' => [
-                        'content' => $keywords,
                     ]
                 ]
             ]
