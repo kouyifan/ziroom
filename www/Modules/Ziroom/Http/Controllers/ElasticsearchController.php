@@ -52,7 +52,6 @@ class ElasticsearchController extends Controller
                             ]
                         ]
                     ],
-                    'articles' => []
                 ]
             ]
         ];
