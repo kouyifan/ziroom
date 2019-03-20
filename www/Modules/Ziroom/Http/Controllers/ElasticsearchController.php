@@ -84,5 +84,29 @@ class ElasticsearchController extends Controller
 
     }
 
+    //查询数据
+    public function find_data(){
+        $keywords = \request('keywords','');
+
+        $params = [
+            'index' => 'blogs',
+            'type' => 'news',
+            'body' => [
+                'query' => [
+                    'match' => [
+                        'title' => $keywords
+                    ],
+                    'match' =>  [
+                        'content'   =>  $keywords
+                    ]
+                ]
+            ]
+        ];
+
+        $results = $this->es_client->search($params);
+        return $results;
+
+    }
+
 
 }
