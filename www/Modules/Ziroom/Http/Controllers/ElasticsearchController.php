@@ -90,18 +90,18 @@ class ElasticsearchController extends Controller
     {
         $keywords = \request('keywords', '');
 
+        $json = "{
+            'query' : {
+                'match' : {
+                    'title' : '$keywords'
+                }
+            }
+        }";
+
         $params = [
             'index' => 'blogs',
             'type' => 'news',
-            'body' => [
-                'query'=>   [
-                    'filter'    =>  [
-                        'term'  =>  [
-                            'title' =>  $keywords
-                        ]
-                    ]
-                ]
-            ]
+            'body' => $json
         ];
 
         $results = $this->es_client->search($params);
