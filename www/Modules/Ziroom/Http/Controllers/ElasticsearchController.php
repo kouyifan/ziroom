@@ -40,7 +40,6 @@ class ElasticsearchController extends Controller
                             ],
                             'author' => [
                                 'type' => 'keyword',
-                                'index' => 'not_analyzed'
                             ],
                             'created_at' => [
                                 'type' => 'date',
