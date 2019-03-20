@@ -63,6 +63,7 @@ class ElasticsearchController extends Controller
         $blogs = \Modules\Ziroom\Entities\blogs::orderBy('id','desc')->take(10)->get();
         $res = [];
         foreach ($blogs as $blog) {
+
             $params = [
                 'index' => 'blogs',
                 'type' => 'news',
@@ -71,10 +72,11 @@ class ElasticsearchController extends Controller
                     'title' => $blog->title,
                     'content' => $blog->content,
                     'author' => $blog->author,
-                    'created_at' => $blog->created_at,
-                    'updated_at' => $blog->updated_at
+                    'created_at' => $blog->created_at->toDateTimeString(),
+                    'updated_at' => $blog->updated_at->toDateTimeString()
                 ]
             ];
+            dd($params);
             $res[] = $this->es_client->index($params);
 
         }
