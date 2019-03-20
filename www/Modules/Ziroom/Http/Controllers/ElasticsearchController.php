@@ -90,15 +90,6 @@ class ElasticsearchController extends Controller
     {
         $keywords = \request('keywords', '');
 
-        $params = [
-            'index' => 'blogs',
-            'type' => 'news',
-            'id' => $keywords
-        ];
-
-        $response = $this->es_client->get($params);
-        return $response;
-
         $json = '{
             "query" : {
                 "match" : {
@@ -106,7 +97,7 @@ class ElasticsearchController extends Controller
                 }
             }
         }';
-
+    
         $params = [
             'index' => 'blogs',
             'type' => 'news',
