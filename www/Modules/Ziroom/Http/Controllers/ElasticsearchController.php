@@ -90,13 +90,13 @@ class ElasticsearchController extends Controller
     {
         $keywords = \request('keywords', '');
 
-        $json = "{
-            'query' : {
-                'match' : {
-                    'title' : $keywords
+        $json = '{
+            "query" : {
+                "match" : {
+                    "title" : "'.$keywords.'"
                 }
             }
-        }";
+        }';
 
         $params = [
             'index' => 'blogs',
