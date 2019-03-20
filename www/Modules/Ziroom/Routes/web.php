@@ -11,10 +11,10 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
+//Route::prefix('ziroom')->group(function() {
+//    Route::get('/', 'ZiroomController@index');
 //});
-//
-//Auth::routes();
-//
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::namespace('\Modules\Ziroom\Http\Controllers')->group(function() {
+    Route::get('/', 'HomeController@index');
+});
+
