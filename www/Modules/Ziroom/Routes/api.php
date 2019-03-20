@@ -16,4 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/ziroom', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/hello',function(){
+   return 'hello';
+});
+
 Route::get('/create_index', 'ElasticsearchController@create_index');

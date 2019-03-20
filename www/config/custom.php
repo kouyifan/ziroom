@@ -7,7 +7,7 @@
  */
 return [
   'elasticsearch'   =>  [
-      'url'  =>  ['http://elasticsearch.koukousky.com/']
+      'url'  =>  ['127.0.0.1:9200']
   ],
 
 ];
