@@ -76,9 +76,9 @@ class ElasticsearchController extends Controller
                     'updated_at' => $blog->updated_at->toDateTimeString()
                 ]
             ];
-            dd($params);
-            $res[] = $this->es_client->index($params);
 
+            $res[] = $this->es_client->index($params);
+//            $res[] = $this->es_client->bulk($params);
         }
         dump($res);
 
