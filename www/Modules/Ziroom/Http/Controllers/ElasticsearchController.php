@@ -93,7 +93,7 @@ class ElasticsearchController extends Controller
         $json = "{
             'query' : {
                 'match' : {
-                    'title' : '$keywords'
+                    'title' : $keywords
                 }
             }
         }";
