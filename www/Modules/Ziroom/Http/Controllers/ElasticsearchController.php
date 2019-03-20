@@ -95,7 +95,7 @@ class ElasticsearchController extends Controller
             'type' => 'news',
             'body' => [
                 'query' => [
-                    'match' => [
+                    'term' => [
                         'title' => $keywords
                     ]
                 ]
