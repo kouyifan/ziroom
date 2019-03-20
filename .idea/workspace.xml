@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="" />
+    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+            <state relative-caret-position="721">
+              <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
               <folding>
                 <element signature="e#51#79#0#PHP" expanded="true" />
               </folding>
@@ -38,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -113,8 +117,8 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/BlogsTableSeeder.php" />
         <option value="$PROJECT_DIR$/www/config/custom.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" />
       </list>
     </option>
   </component>
@@ -401,12 +405,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552986523003</updated>
       <workItem from="1552986524310" duration="18490000" />
-      <workItem from="1553059300544" duration="15263000" />
+      <workItem from="1553059300544" duration="15832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33753000" />
+    <option name="totallyTimeSpent" value="34322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -711,14 +715,14 @@
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        <state relative-caret-position="721">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
           <folding>
             <element signature="e#51#79#0#PHP" expanded="true" />
           </folding>

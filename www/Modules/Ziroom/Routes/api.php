@@ -20,6 +20,6 @@ Route::prefix('es')->group(function(){
     Route::get('/create_index', 'ElasticsearchController@create_index');
     Route::get('/save_data', 'ElasticsearchController@save_data');
     Route::post('/find_data', 'ElasticsearchController@find_data');
-
+    Route::post('/update_data', 'ElasticsearchController@update_data');
 });
 

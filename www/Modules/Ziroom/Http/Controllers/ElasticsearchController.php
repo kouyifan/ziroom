@@ -97,7 +97,7 @@ class ElasticsearchController extends Controller
                 }
             }
         }';
-    
+
         $params = [
             'index' => 'blogs',
             'type' => 'news',
@@ -108,7 +108,25 @@ class ElasticsearchController extends Controller
         return $results;
 
     }
+    #更新数据
+    public function update_data(){
+        $post = \request()->post();
 
+
+        $params = [
+            'index' => 'blogs',
+            'type' => 'news',
+            'id' => $post['id'],
+            'body' => [
+                'doc' => [
+                    'title' =>  !empty($post['title']) ? $post['title'] : '',
+                    'content' =>  !empty($post['title']) ? $post['title'] : '',
+                ]
+            ]
+        ];
+        $response = $this->es_client->update($params);
+        return $response;
+    }
 
 
 }
