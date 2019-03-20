@@ -9,40 +9,50 @@ use Elasticsearch\ClientBuilder;
 
 class ElasticsearchController extends Controller
 {
-    private $es_client = null;
+    private $es_client;
 
     public function __construct()
     {
-        $this->client = ClientBuilder::create()           // Instantiate a new ClientBuilder
-        ->setHosts(config('custom.elasticsearch.url'))      // Set the hosts
-        ->build();
+        $this->es_client = ClientBuilder::create()->setHosts(config('custom.elasticsearch.url'))->build();
     }
+
     //建立索引
     public function create_index()
     {
-
         $params = [
-            'index' => 'book',
+            'index' => 'blogs',
             'body' => [
                 'settings' => [
                     'number_of_shards' => 5,
                     'number_of_replicas' => 1
                 ],
                 'mappings' => [
-                    'my_type' => [
+                    'news' => [
                         '_source' => [
                             'enabled' => true
                         ],
                         'properties' => [
-                            'first_name' => [
-                                'type' => 'string',
-                                'analyzer' => 'standard'
+                            'title' => [
+                                'type' => 'keyword',
                             ],
-                            'age' => [
-                                'type' => 'integer'
+                            'content' => [
+                                'type' => 'text'
+                            ],
+                            'author' => [
+                                'type' => 'keyword',
+                                'index' => 'not_analyzed'
+                            ],
+                            'created_at' => [
+                                'type' => 'date',
+                                'format' => 'yyyy-MM-dd HH:mm:ss'
+                            ],
+                            'updated_at' => [
+                                'type' => 'date',
+                                'format' => 'yyyy-MM-dd HH:mm:ss'
                             ]
                         ]
-                    ]
+                    ],
+                    'articles' => []
                 ]
             ]
         ];
