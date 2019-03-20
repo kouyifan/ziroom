@@ -72,7 +72,7 @@ class ElasticsearchController extends Controller
                     'content' => $blog->content,
                     'author' => $blog->author,
                     'created_at' => $blog->created_at,
-                    'updated_at' => $blog->update_at
+                    'updated_at' => $blog->updated_at
                 ]
             ];
             $res[] = $this->es_client->index($params);
