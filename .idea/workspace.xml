@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ziroom.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
@@ -25,6 +23,15 @@
               <folding>
                 <element signature="e#51#79#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="28" column="10" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -38,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="396">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -116,8 +123,8 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/factories/BlogsFactory.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/ZiroomDatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/BlogsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php" />
       </list>
     </option>
   </component>
@@ -396,12 +403,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552986523003</updated>
       <workItem from="1552986524310" duration="18490000" />
-      <workItem from="1553059300544" duration="4575000" />
+      <workItem from="1553059300544" duration="4958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23065000" />
+    <option name="totallyTimeSpent" value="23448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -458,13 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="25" column="16" lean-forward="true" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -689,6 +689,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#51#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="28" column="10" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/config/custom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -698,18 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#51#79#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
