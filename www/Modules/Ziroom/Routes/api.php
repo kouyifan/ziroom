@@ -19,8 +19,7 @@ Route::middleware('auth:api')->get('/ziroom', function (Request $request) {
 Route::prefix('es')->group(function(){
     Route::get('/create_index', 'ElasticsearchController@create_index');
     Route::get('/save_data', 'ElasticsearchController@save_data');
-    Route::get('/abc', function (){
-        return '123';
-    });
+    Route::post('/find_data', 'ElasticsearchController@find_data');
+
 });
 
