@@ -59,8 +59,9 @@ class ElasticsearchController extends Controller
     }
 
     //存储数据
-    public function save_data(){
-        $blogs = \Modules\Ziroom\Entities\blogs::orderBy('id','desc')->take(10)->get();
+    public function save_data()
+    {
+        $blogs = \Modules\Ziroom\Entities\blogs::orderBy('id', 'desc')->take(10)->get();
         $res = [];
         foreach ($blogs as $blog) {
 
@@ -85,8 +86,9 @@ class ElasticsearchController extends Controller
     }
 
     //查询数据
-    public function find_data(){
-        $keywords = \request('keywords','');
+    public function find_data()
+    {
+        $keywords = \request('keywords', '');
 
         $params = [
             'index' => 'blogs',
@@ -95,9 +97,6 @@ class ElasticsearchController extends Controller
                 'query' => [
                     'match' => [
                         'title' => $keywords
-                    ],
-                    'match' =>  [
-                        'content'   =>  $keywords
                     ]
                 ]
             ]
