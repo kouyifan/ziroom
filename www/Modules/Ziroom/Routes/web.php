@@ -14,7 +14,14 @@
 //Route::prefix('ziroom')->group(function() {
 //    Route::get('/', 'ZiroomController@index');
 //});
-Route::namespace('\Modules\Ziroom\Http\Controllers')->group(function() {
+Route::namespace('\Modules\Ziroom\Http\Controllers')
+    ->middleware('ziroom_web_common')
+    ->group(function() {
+//    首页
     Route::get('/', 'HomeController@index');
+    Route::get('/list', 'ListController@index');
 });
 
+Route::prefix('ziroom')->namespace('\Modules\Ziroom\Http\Controllers')->group(function(){
+   Route::get('/test','TestController@test');
+});

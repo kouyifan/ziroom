@@ -12,6 +12,15 @@
     "devDependencies": {
         "cross-env": "^5.1.4",
         "laravel-mix": "^4.0.7",
-        "laravel-mix-merge-manifest": "^0.1.2"
+        "laravel-mix-merge-manifest": "^0.1.2",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.8.1",
+        "axios": "^0.18.0",
+        "bootstrap": "^4.3.1",
+        "fontawesome": "^5.6.3",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.7"
     }
 }

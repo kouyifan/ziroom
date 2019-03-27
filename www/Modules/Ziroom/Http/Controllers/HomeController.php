@@ -15,9 +15,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-
-
-        return view('ziroom::index');
+//        \Cache::clear();
+        return view('ziroom::home.index');
     }
 
 

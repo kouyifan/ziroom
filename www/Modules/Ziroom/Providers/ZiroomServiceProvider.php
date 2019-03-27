@@ -4,6 +4,7 @@ namespace Modules\Ziroom\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
+use Modules\Ziroom\Repositories\Contracts\GrabZiroomInterface;
 
 class ZiroomServiceProvider extends ServiceProvider
 {
@@ -19,6 +20,8 @@ class ZiroomServiceProvider extends ServiceProvider
         $this->registerViews();
         $this->registerFactories();
         $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
+
+
     }
 
     /**
@@ -29,6 +32,7 @@ class ZiroomServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register(RouteServiceProvider::class);
+        $this->app->register(MyServiceProvider::class);
     }
 
     /**

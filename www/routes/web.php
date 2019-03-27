@@ -10,9 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-//Route::get('/', function () {
-//    return view('welcome');
+//use QL\QueryList;
+//Route::get('/test', function () {
+//    $data = QueryList::get('http://www.nipic.com')->find('img')->attrs('src');;
+//    dd($data);
 //});
 //
 //Auth::routes();

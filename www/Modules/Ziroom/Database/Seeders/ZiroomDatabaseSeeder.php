@@ -16,8 +16,8 @@ class ZiroomDatabaseSeeder extends Seeder
     public function run()
     {
         Model::unguard();
-
-        $this->call(\Modules\Ziroom\Database\Seeders\BlogsTableSeeder::class);
+        $this->call(\Modules\Ziroom\Database\Seeders\InitZiroomDataSeederTableSeeder::class);
+//        $this->call(\Modules\Ziroom\Database\Seeders\BlogsTableSeeder::class);
         // $this->call("OthersTableSeeder");
     }
 }

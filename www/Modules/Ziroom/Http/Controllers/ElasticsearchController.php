@@ -14,6 +14,7 @@ class ElasticsearchController extends Controller
     public function __construct()
     {
         $this->es_client = ClientBuilder::create()->setHosts(config('custom.elasticsearch.url'))->build();
+
     }
 
     //建立索引
@@ -61,7 +62,8 @@ class ElasticsearchController extends Controller
     //存储数据
     public function save_data()
     {
-        $blogs = \Modules\Ziroom\Entities\blogs::orderBy('id', 'desc')->take(10)->get();
+//        $blogs = \Modules\Ziroom\Entities\blogs::orderBy('id', 'desc')->take(10)->get();
+        $blogs = \Modules\Ziroom\Entities\blogs::all();
         $res = [];
         foreach ($blogs as $blog) {
 
@@ -92,8 +94,15 @@ class ElasticsearchController extends Controller
 
         $json = '{
             "query" : {
-                "match" : {
-                    "content" : "'.$keywords.'"
+                "bool" : {
+                    "should": [
+                        {
+                            "match" : { "title" : "测试" }
+                        },
+                        {
+                            "match" : { "content" : "你好" }
+                        }
+                    ]
                 }
             }
         }';
@@ -101,6 +110,8 @@ class ElasticsearchController extends Controller
         $params = [
             'index' => 'blogs',
             'type' => 'news',
+            'size' => 10,
+            'from' => 0,
             'body' => $json
         ];
 
@@ -108,8 +119,10 @@ class ElasticsearchController extends Controller
         return $results;
 
     }
+
     #更新数据
-    public function update_data(){
+    public function update_data()
+    {
         $post = \request()->post();
 
         $params = [
@@ -118,8 +131,8 @@ class ElasticsearchController extends Controller
             'id' => $post['id'],
             'body' => [
                 'doc' => [
-                    'title' =>  $post['title'],
-                    'content' =>  $post['content'],
+                    'title' => $post['title'],
+                    'content' => $post['content'],
                 ]
             ]
         ];
