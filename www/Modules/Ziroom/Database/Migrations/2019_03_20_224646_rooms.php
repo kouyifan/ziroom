@@ -50,7 +50,7 @@ class Rooms extends Migration
             //房屋检测
             $table->string('housing_detection',200)->default('')->comment('房屋检测');
             //房屋特色
-            $table->string('husing_features',200)->default('')->comment('房屋特色');
+            $table->string('housing_features',200)->default('')->comment('房屋特色');
             //入住开始
             $table->date('begin_time')->comment('入住时间');
             //结束时间

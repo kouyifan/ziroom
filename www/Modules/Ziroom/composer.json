@@ -20,6 +20,12 @@
     "autoload": {
         "psr-4": {
             "Modules\\Ziroom\\": ""
-        }
+        },
+        "files": [
+            "Http/Helpers/helper.php"
+        ]
+    },
+    "require": {
+        "mikehaertl/php-shellcommand": "1.*"
     }
 }

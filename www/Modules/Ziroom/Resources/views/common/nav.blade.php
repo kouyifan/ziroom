@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <h1 class="h1-logo">
-        <a class="navbar-brand logo" href="#">
+        <a class="navbar-brand logo" href="/">
             <img src="{{asset('ziroom/images/logo.png')}}" alt="">
         </a>
     </h1>

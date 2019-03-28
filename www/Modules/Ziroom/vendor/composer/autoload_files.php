@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '94ae8b18c09057a60f786a0eb5b0b906' => $baseDir . '/Modules/Ziroom/Http/helpers.php',
+    '844e58d46f6296cfd0497be3937e22d7' => $baseDir . '/Http/Helpers/helper.php',
 );

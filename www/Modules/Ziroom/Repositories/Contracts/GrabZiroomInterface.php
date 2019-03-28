@@ -14,4 +14,10 @@ interface GrabZiroomInterface{
     public function findZiroomSubwayData();
     //查询自如区域分类数据
     public function findZiroomAreaOrSubwayDbData($class,$type,$id);
+    //获取分页列表
+    public function getPageByUrl($url1 = '',$url2 = '');
+    //获取列表list数据
+    public function getListDataByPage($url);
+    //获取详情页数据
+    public function getZiroomDetails($url = '');
 }

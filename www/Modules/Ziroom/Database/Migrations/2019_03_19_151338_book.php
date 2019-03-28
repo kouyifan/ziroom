@@ -13,14 +13,14 @@ class Book extends Migration
      */
     public function up()
     {
-        Schema::create('blogs', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('title')->default('');
-            $table->text('content');
-            $table->string('author',50)->default('');
-            $table->dateTime('created_at');
-            $table->dateTime('updated_at');
-        });
+//        Schema::create('blogs', function (Blueprint $table) {
+//            $table->increments('id');
+//            $table->string('title')->default('');
+//            $table->text('content');
+//            $table->string('author',50)->default('');
+//            $table->dateTime('created_at');
+//            $table->dateTime('updated_at');
+//        });
     }
 
     /**
@@ -31,6 +31,6 @@ class Book extends Migration
     public function down()
     {
         //
-        Schema::drop('blogs');
+//        Schema::drop('blogs');
     }
 }

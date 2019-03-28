@@ -5,903 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/poll.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/poo-storm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/poo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/poop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/portrait.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/pound-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/power-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/pray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/praying-hands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/prescription-bottle-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/prescription-bottle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/prescription.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/print.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/procedures.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/project-diagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/puzzle-piece.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/qrcode.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/question-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/question.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/quidditch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/quote-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/quote-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/quran.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/radiation-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/radiation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/rainbow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/random.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/receipt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/recycle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/redo-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/redo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/registered.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/reply-all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/reply.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/republican.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/restroom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/retweet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ribbon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ring.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/road.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/robot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/rocket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/route.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/rss-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/rss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruble-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler-combined.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler-horizontal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler-vertical.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/running.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/rupee-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sad-cry.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sad-tear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/satellite-dish.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/satellite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/school.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/screwdriver.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/scroll.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sd-card.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/search-dollar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/search-location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/search-minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/search-plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/seedling.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/server.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shapes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/share-alt-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/share-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/share-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/share.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shekel-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shield-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/ship.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shipping-fast.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shoe-prints.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shopping-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shopping-basket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shopping-cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shower.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/shuttle-van.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-in-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-language.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-out-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/signal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/signature.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sim-card.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sitemap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/skating.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/skiing-nordic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/skiing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/skull-crossbones.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/skull.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/slash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sleigh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sliders-h.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/smile-beam.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/smile-wink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/smile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/smog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/smoking-ban.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/smoking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/snowboarding.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/snowflake.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/snowman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/snowplow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/socks.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/solar-panel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-numeric-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-numeric-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/spa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/space-shuttle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/spider.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/spinner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/splotch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/spray-can.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/square-full.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/square-root-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/stamp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/star-and-crescent.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/star-half-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/star-half.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/star-of-david.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/star-of-life.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/step-backward.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/step-forward.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/stethoscope.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/sticky-note.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/stop-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/stop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/toolbox.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tools.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tooth.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/torah.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/torii-gate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tractor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/trademark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/traffic-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/train.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/transgender-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/transgender.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-restore-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-restore.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/trash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/trophy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-loading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-monster.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-moving.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-pickup.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/truck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tshirt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tty.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/umbrella-beach.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/umbrella.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/underline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/undo-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/undo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/universal-access.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/university.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/unlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/unlock-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/unlock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/upload.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-alt-slash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-astronaut.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-cog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-friends.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-graduate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-injured.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-md.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-ninja.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-nurse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-secret.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-shield.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-slash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-tag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-tie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-times.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/users-cog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/users.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/utensil-spoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/utensils.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/vector-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/venus-double.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/venus-mars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/venus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/vial.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/vials.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/video-slash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/vihara.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/volleyball-ball.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-mute.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/vote-yea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/vr-cardboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/walking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wallet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/warehouse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/water.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wave-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/weight-hanging.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/weight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wheelchair.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wifi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wind.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/window-close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/window-maximize.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/window-minimize.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/window-restore.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wine-bottle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wine-glass-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wine-glass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/won-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/wrench.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/x-ray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/yen-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/svgs/solid/yin-yang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/async/for-each.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/async/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/call.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/directory-reader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/normalize-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/stat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/stream/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/sync/for-each.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/sync/fs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/lib/sync/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@mrmlnc/readdir-enhanced/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/adapters/fs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/managers/options.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/managers/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/providers/stat.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/out/providers/stat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@nodelib/fs.stat/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@types/q/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@types/q/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@types/q/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@types/q/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/compileStyle.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/compileStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/compileTemplate.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/compileTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/parse.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@vue/component-compiler-utils/dist/stylePlugins/scoped.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/scrollintoview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/scrollintoviewifneeded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/sdch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/selection-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/server-timing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/serviceworkers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/setimmediate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/sha-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/shadowdom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/shadowdomv1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/sharedarraybuffer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/sharedworkers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/sni.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/spdy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/speech-recognition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/speech-synthesis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/spellcheck-attribute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/sql-storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/srcset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/stopimmediatepropagation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/streams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/stricttransportsecurity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/style-scoped.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/subresource-integrity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-fragment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg-smil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/symbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/tabindex-attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/template-literals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/testfeat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/text-decoration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/text-emphasis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/text-overflow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/text-size-adjust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/text-stroke.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/textcontent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/textencoder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/tls1-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/tls1-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/tls1-3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/token-binding.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/touch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/transforms2d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/transforms3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/ttf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/typedarrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/u2f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/unhandledrejection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/upgradeinsecurerequests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/urlsearchparams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/use-strict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/user-select-none.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/user-timing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/variable-fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/vibration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/videotracks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/viewport-units.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/wai-aria.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/wasm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/wav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/wbr-element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/web-animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/web-app-manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/web-bluetooth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/web-share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webauthn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webgl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webgl2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/websockets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webusb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webvr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webvtt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/webworkers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/will-change.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/woff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/woff2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/word-break.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/wordwrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/x-doc-messaging.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/x-frame-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/xhr2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/xhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/xhtmlsmil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/features/xml-serializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/caniuse-lite/data/regions/AT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.number.parse-int.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.number.to-fixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.number.to-precision.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.assign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.define-getter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.define-properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.define-property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.define-setter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.entries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.freeze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.from-entries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.get-own-property-descriptor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.get-own-property-descriptors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.get-own-property-names.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.object.get-prototype-of.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.pad-end.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.pad-start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.raw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.repeat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.small.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.split.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.starts-with.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.strike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.sub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.sup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.trim-end.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.trim-start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/es.string.trim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.key-by.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.key-of.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.map-keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.map-values.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.of.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.reduce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.some.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.map.update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.clamp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.deg-per-rad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.degrees.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.fscale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.iaddh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.imulh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.math.isubh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.weak-set.add-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.weak-set.delete-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.weak-set.from.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/esnext.weak-set.of.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.dom-collections.for-each.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.dom-collections.iterator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.immediate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.queue-microtask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.timers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.url-search-params.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/modules/web.url.to-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/proposals/array-last.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/proposals/collection-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js-pure/proposals/collection-of-from.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.set.of.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.set.reduce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.set.some.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.set.symmetric-difference.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.set.union.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.string.at.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.string.code-points.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.string.match-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.string.replace-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.symbol.dispose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.symbol.observable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.symbol.pattern-match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.weak-map.delete-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.weak-map.from.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.weak-map.of.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/modules/esnext.weak-set.add-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/some.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/splice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/starts-with.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/trim-end.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/trim-left.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/trim-right.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/trim-start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/trim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/instance/values.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/json/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/json/stringify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/json/to-string-tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/map/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/math/acosh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/math/asinh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/ends-with.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/fixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/fontcolor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/fontsize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/from-code-point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/includes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/italics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/iterator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/pad-end.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/pad-start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/raw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/repeat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/string/replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/reverse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/some.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/subarray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/to-locale-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/to-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/uint16-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/uint32-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/uint8-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/uint8-clamped-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/typed-array/values.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/url-search-params/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/url/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/core-js/stable/url/to-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/example/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/example/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/example/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/aes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/create-hash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/create-hmac.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/dh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/ecdh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/node/dh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/pbkdf2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/public-encrypt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/crypto-browserify/test/random-bytes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/.bin/jsesc.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/.bin/regjsparser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/.bin/regjsparser.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/jsesc/LICENSE-MIT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/jsesc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/jsesc/bin/jsesc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/jsesc/jsesc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/jsesc/man/jsesc.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/jsesc/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/regexpu-core/LICENSE-MIT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/regexpu-core/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/regexpu-core/data/character-class-escape-sets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/regexpu-core/data/iu-mappings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/css-selector-tokenizer/node_modules/regexpu-core/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/README-cn.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/docs/architecture.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/docs/guidelines/plugin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/docs/guidelines/runner.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/docs/source-maps.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/docs/syntax.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/lib/at-rule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/lib/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/lib/container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/lib/css-syntax-error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/icss-utils/node_modules/postcss/lib/declaration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/import-local/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/import-local/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/imurmurhash/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/imurmurhash/imurmurhash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/imurmurhash/imurmurhash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/imurmurhash/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexes-of/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexes-of/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexes-of/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexes-of/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexes-of/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexes-of/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexof/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexof/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexof/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/indexof/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-binary-path/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-binary-path/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-binary-path/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-buffer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-buffer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-buffer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-buffer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-buffer/test/basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/.istanbul.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/.jscs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-callable/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/test/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-symbol/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-windows/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-windows/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-windows/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-windows/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-wsl/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-wsl/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-wsl/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/is-wsl/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/default_bool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/dotted.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/kv_short.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/long.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/num.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/parse_modified.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/short.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/stop_early.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/unknown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/minimist/test/whitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/mississippi/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/mississippi/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/mississippi/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/mississippi/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/mississippi/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/negotiator/lib/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/negotiator/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/allLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/allSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/angelFall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/any.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/anyLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/anySeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/apply.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/applyEach.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/applyEachSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/safe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/selectLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/selectSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/seq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/setImmediate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/some.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/someLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/someSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/sortBy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/sortByLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/sortBySeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/timeout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/times.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/neo-async/timesLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/pkcs7asn1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/pki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/prime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/prime.worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/prng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/pss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/random.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/rc2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/rsa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/sha1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/sha256.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/sha512.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/ssh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/node-forge/lib/tls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/implementation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/isArguments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-keys/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-visit/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-visit/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-visit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object-visit/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object.getownpropertydescriptors/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object.getownpropertydescriptors/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object.getownpropertydescriptors/.jscs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object.getownpropertydescriptors/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/object.getownpropertydescriptors/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/module_dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/module_dir/xmodules/aaa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/module_dir/ymodules/aaa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/module_dir/zmodules/bbb/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/node-modules-paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/node_path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/node_path/x/aaa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/node_path/x/ccc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/node_path/y/bbb/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/node_path/y/ccc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/nonstring.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/pathfilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/pathfilter/deep_ref/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/precedence.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/resolve/test/precedence/aaa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/select-hose/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/select-hose/test/api-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/select-hose/test/fixtures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/selfsigned/test/tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/semver/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/semver/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/semver/bin/semver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/semver/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/semver/range.bnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/semver/semver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/universalify/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/universalify/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unpipe/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unpipe/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unpipe/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unpipe/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unpipe/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unquote/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unquote/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unquote/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unquote/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unquote/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unset-value/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unset-value/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unset-value/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/unset-value/node_modules/has-value/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/urix/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/urix/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/urix/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/urix/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/urix/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/urix/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/dist/url-parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/dist/url-parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/dist/url-parse.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url-parse/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/url/.zuul.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/lib/addStylesClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/lib/addStylesServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/lib/addStylesShadow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/lib/listToStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-style-loader/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-template-compiler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-template-compiler/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-template-compiler/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/vue-template-compiler/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/completion.sh.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/apply-extends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/argsert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/command.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/completion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/levenshtein.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/obj-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/usage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/lib/yerror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack-dev-server/node_modules/yargs/locales/be.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/BasicEvaluatedExpression.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/CachePlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/CaseSensitiveModulesWarning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/Chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ChunkGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ChunkRenderError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ChunkTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/CommentCompilationWarning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/CompatibilityPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/Compilation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/Compiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ConcurrentCompilationError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ConstPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ContextExclusionPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ContextModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/ContextModuleFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/MultiCompiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/MultiEntryPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/MultiModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/MultiModuleFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/MultiStats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/MultiWatching.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NamedChunksPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NamedModulesPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NoEmitOnErrorsPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NoModeWarning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NodeStuffPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NormalModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NormalModuleFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NormalModuleReplacementPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/NullFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/OptionsApply.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/StackedSetMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/TrackingSet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/cachedMerge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/createHash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/deterministicGrouping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/identifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/util/objectToMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/validateSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/UnsupportedWebAssemblyFeatureError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WasmFinalizeExportsPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WasmMainTemplatePlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WebAssemblyGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WebAssemblyInInitialChunkError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WebAssemblyJavascriptGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WebAssemblyModulesPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/webpack/lib/wasm/WebAssemblyParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/worker-farm/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/worker-farm/tests/child.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/worker-farm/tests/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/worker-farm/tests/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/string-width/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/string-width/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/string-width/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/node_modules/string-width/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Modules/Ziroom/node_modules/wrap-ansi/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/ZiroomDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/ZiroomDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Blogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ElasticsearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Providers/ZiroomServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Providers/ZiroomServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_19_151338_book.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_19_151338_book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/Helpers/ziroom.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Helpers/ziroom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/config/custom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/composer.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -913,7 +30,77 @@
     <pharConfigPath>$PROJECT_DIR$/www/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+              <folding>
+                <element signature="e#137#199#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <element signature="e#51#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/tests/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/vendor/jaeger/querylist/src/Dom/Query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="87" column="67" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -938,6 +125,15 @@
       <find>xl</find>
       <find>podcast</find>
       <find>que</find>
+      <find>find_area_subway_data</find>
+      <find>findZiroomAreaData</find>
+      <find>nav_cache</find>
+      <find>QueryList</find>
+      <find>rules</find>
+      <find>composer require jonnyw/php-phantomjs</find>
+      <find>symfony/filesystem</find>
+      <find>filesystem</find>
+      <find>modules</find>
     </findStrings>
     <replaceStrings>
       <replace>text</replace>
@@ -978,16 +174,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Rooms.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/RoomsPerson.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/RoomsSlave.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/City.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Room.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Blog.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Area.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Subway.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/Components/alert.blade.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Nav.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Http/Middleware/Web.php" />
@@ -998,9 +185,7 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Providers/ZiroomServiceProvider.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Providers/GrabZiroomServiceProvider.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Providers/MyServiceProvider.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Http/Middleware/ZiroomWebCommon.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Services/ZiroomCacheServices.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/package.json" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/test.txt" />
@@ -1020,15 +205,26 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/sass/home.scss" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/home/index.blade.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrab.php" />
         <option value="$PROJECT_DIR$/www/config/queue.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabPodcast.php" />
         <option value="$PROJECT_DIR$/www/.env" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_19_151338_book.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" />
+        <option value="$PROJECT_DIR$/www/app/Helpers/ziroom.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Http/Helpers/helper.php" />
+        <option value="$PROJECT_DIR$/www/composer.json" />
+        <option value="$PROJECT_DIR$/www/read.md" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/composer.json" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/www/tests/test.py" />
       </list>
     </option>
   </component>
@@ -1150,6 +346,8 @@
       <path value="$PROJECT_DIR$/www/vendor/cache/tag-interop" />
       <path value="$PROJECT_DIR$/www/vendor/cache/adapter-common" />
       <path value="$PROJECT_DIR$/www/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/www/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/www/vendor/mikehaertl/php-shellcommand" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -1166,8 +364,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ziroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ziroom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ziroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ziroom" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ziroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ziroom" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1212,18 +431,31 @@
       <workItem from="1553255343121" duration="14999000" />
       <workItem from="1553353157341" duration="3289000" />
       <workItem from="1553651874138" duration="27000" />
-      <workItem from="1553682643213" duration="602000" />
+      <workItem from="1553682643213" duration="3703000" />
+      <workItem from="1553686882886" duration="10024000" />
+      <workItem from="1553745129688" duration="14858000" />
+      <workItem from="1553781777281" duration="2315000" />
+      <workItem from="1553785338402" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123530000" />
+    <option name="totallyTimeSpent" value="155661000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6307922" visible="true" weight="0.25906184" />
+      <window_info id="Structure" order="1" sideWeight="0.36920777" side_tool="true" visible="true" weight="0.25906184" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
@@ -1231,12 +463,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49946696" weight="0.25893825" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26868907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2751896" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.25893825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1248,180 +480,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/test.txt" />
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="3001" column="62" selection-start-line="3001" selection-start-column="62" selection-end-line="3001" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/ziroom/test.txt" />
-    <entry file="file://$PROJECT_DIR$/www/_ide_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/public/ziroom/test.txt" />
-    <entry file="file://$PROJECT_DIR$/www/public/ziroom/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#137#199#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Middleware/ZiroomWebCommon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="e#50#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/ListController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/public/ziroom/images/home_slide/ChAFB1xg4tCAROdvAAQ9oX44508828.jpg" />
-    <entry file="file://$PROJECT_DIR$/www/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/public/mix-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/components/homeSlide.blade.php" />
-    <entry file="file://$PROJECT_DIR$/www/node_modules/fontawesome/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/node_modules/fontawesome/generate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/node_modules/fontawesome/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/node_modules/fontawesome/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/js/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="56" column="15" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/node_modules/fontawesome/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1" column="1239" lean-forward="true" selection-start-line="1" selection-start-column="1239" selection-end-line="1" selection-end-column="1239" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/list/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1471,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1492,22 +543,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/database/migrations/2019_03_23_230346_create_jobs_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/www/database/migrations/2014_10_12_100000_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1539,33 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="e#39#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#51#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1573,13 +587,253 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Providers/MyServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Services/ZiroomCacheServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GetCommonDataInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#39#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="e#139#204#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/database/migrations/2019_03_23_230346_create_jobs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/database/migrations/2019_03_23_234630_create_failed_jobs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/jaeger/querylist/src/Dom/Elements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="202" column="25" selection-start-line="202" selection-start-column="20" selection-end-line="202" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="236" column="3" lean-forward="true" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_19_151338_book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="e#51#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/jaeger/phpquery-single/phpQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="981" column="23" selection-start-line="981" selection-start-column="23" selection-end-line="981" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/jaeger/querylist/src/QueryList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/Helpers/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="3593" column="9" lean-forward="true" selection-start-line="3593" selection-start-column="9" selection-end-line="3593" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/Helpers/ziroom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Helpers/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="https://schemastore.azurewebsites.net/schemas/json/composer.json">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" column="139" lean-forward="true" selection-start-line="9" selection-start-column="139" selection-end-line="9" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/7.0" />
+    <entry file="file://$PROJECT_DIR$/www/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#137#199#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/jaeger/querylist/src/Dom/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="87" column="67" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="e#51#79#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/tests/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>

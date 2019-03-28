@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit4f6caf19d5a0d5860c1fc7295167731a
 {
     public static $files = array (
-        '94ae8b18c09057a60f786a0eb5b0b906' => __DIR__ . '/../..' . '/Modules/Ziroom/Http/helpers.php',
+        '844e58d46f6296cfd0497be3937e22d7' => __DIR__ . '/../..' . '/Http/Helpers/helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
