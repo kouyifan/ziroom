@@ -17,18 +17,20 @@ class TestController extends Controller
      */
     public function test(GrabZiroomInterface $test)
     {
-//        ziroomGrabJobs::dispatch(['test'    =>  '001'])->delay(now()->addMinutes(1));
-//        $data = $test->findZiroomAreaOrSubwayDbData();
-//        $data = $test->getPageByUrl(config('ziroom.Grab_Urls.rent_sharing'),config('ziroom.Grab_Urls.rent_sharing_page'));
-        $data = $test->getListDataByPage(config('ziroom.Grab_Urls.rent_sharing'));
-        $command = new Command('php --version');
-        if ($command->execute()) {
-            p($command->getOutput());
-        } else {
-            echo $command->getError();
-            $exitCode = $command->getExitCode();
+        $test->getZiroomDetails('http://www.ziroom.com/z/vr/61486040.html');
+        $page_list_data = $test->getListDataByPage(config('ziroom.Grab_Urls.rent_sharing'));
+        if (!empty($page_list_data)){
+            foreach ($page_list_data as $value){
+                p($value);
+
+            }
 
         }
+
+    }
+
+    public function test2(){
+
     }
 
 

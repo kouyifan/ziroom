@@ -16,7 +16,8 @@ class Rooms extends Migration
         Schema::create('rooms', function (Blueprint $table) {
 
             $table->bigIncrements('id');
-            $table->bigInteger('z_id')->default(0)->comment('自如ID')->index();
+            $table->bigInteger('z_room_id')->default(0)->comment('自如room ID')->index();
+            $table->bigInteger('z_house_id')->default(0)->comment('自如house ID')->index();
             //房屋名称
             $table->string('name',50)->default('')->comment('房屋名称');
             //缩略图
@@ -29,6 +30,8 @@ class Rooms extends Migration
             $table->string('measure_area',10)->default('')->comment('面积');
             //朝向
             $table->string('orientation',10)->default('')->comment('朝向');
+            //户型
+            $table->string('house_type',20)->default('')->comment('户型');
             //楼层
             $table->string('floor',20)->default('')->comment('楼层');
             //交通
@@ -36,7 +39,9 @@ class Rooms extends Migration
             //房源编号
             $table->string('room_number',50)->default('')->comment('房源编号');
             //房源编号slave
-            $table->string('room_number_slave',10)->default('')->comment('房源编号slave,户型');
+            $table->string('room_number_slave',10)->default('')->comment('房源编号slave,户型，第几间卧室');
+            //房间数量
+            $table->tinyInteger('room_nums')->default(0)->comment('房间数量');
             //房屋配置
             $table->string('housing_allocation',200)->default('')->comment('房屋配置');
             //房源介绍
@@ -75,16 +80,14 @@ class Rooms extends Migration
             $table->tinyInteger('room_type')->default(0)->comment('0=合租，1=整租，2=直租');
             //是否豪宅
             $table->tinyInteger('luxury_house')->default(0)->comment('豪宅');
-            //户型
-            $table->string('apartment',20)->default('')->comment('户型');
             //纬度
             $table->double('latitude',10,6)->default(0)->comment('纬度');
             //精度
             $table->double('longitude',10,6)->default(0)->comment('精度');
             //地铁线路
-            $table->integer('subway_pid')->default(0)->comment('地铁线路');
+            $table->string('subway_pid')->default('')->comment('地铁线路');
             //地铁线路子字段
-            $table->integer('subway_id')->default(0)->comment('地铁子ID');
+            $table->string('subway_id')->default('')->comment('地铁子ID');
         });
         \DB::statement("ALTER TABLE `rooms_slaves` comment '房屋附表'");
         //房屋入住人信息
