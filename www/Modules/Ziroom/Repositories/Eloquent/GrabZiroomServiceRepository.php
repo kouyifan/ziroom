@@ -10,6 +10,7 @@ use Modules\Ziroom\Repositories\Contracts\GrabZiroomInterface;
 use Modules\Ziroom\Services\ZiroomCacheServices;
 use phpDocumentor\Reflection\Types\This;
 use \Modules\Ziroom\Services\PythonServices;
+use \Modules\Ziroom\Services\FileSystemService;
 
 class GrabZiroomServiceRepository implements GrabZiroomInterface{
 
@@ -19,6 +20,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
     protected $ziroom_cache_service;
     protected $QueryList;
     protected $header;
+
 
     public function __construct()
     {
@@ -143,9 +145,12 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
         $housing_allocation = $html->find('.configuration > li')->texts();
         $lng = $html->find('#mapsearchText')->attr('data-lng');
         $lat = $html->find('#mapsearchText')->attr('data-lat');
-        $python_service = new PythonServices();
-        $price = $python_service->_get_image_font();
-        p($price);die;
+
+        $price = $this->_get_price_by_img($url,$room_id,$house_id);
+
+
+
+
         $roommates = $html->rules([
             'sexs'  =>  ['.greatRoommate li','class'],
             'constellation' =>  ['.greatRoommate li .sign','text','',function($item){
@@ -179,8 +184,32 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
             'lat'           =>  $lat,
             'price'         =>  $price
         ];
-
+        
         p($res);die;
+    }
+
+    //下载价格图片
+    private function _get_price_by_img($url = '',$room_id = 0,$house_id = 0){
+
+        $data = fn_curl_get(config('ziroom.Grab_Urls.room_info_api'),['id'=>$room_id,'house_id'=>$house_id]);
+        $res = is_null(json_decode($data)) ? [] : json_decode($data,TRUE);
+        if ($res['code'] !== '200' && empty($res['data']['price'])) return '';
+
+        $price_img = fn_curl_get_http_or_https().$res['data']['price']['1'];
+        $price_pos = $res['data']['price']['2'];
+
+        $storage = new FileSystemService();
+        $img_path = $storage->_down_file_http($price_img);
+
+        $python_service = new PythonServices();
+        $price_img_font = $python_service->_get_image_font($img_path);
+        $price = '';
+        if (!empty($price_pos) && !empty($price_img_font)){
+            foreach ($price_pos as $value){
+                $price .= $price_img_font[$value];
+            }
+        }
+        return $price;
     }
 
     //查询面积、朝向、户型等等

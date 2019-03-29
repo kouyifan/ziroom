@@ -63,6 +63,11 @@ return [
             'bucket' => env('AWS_BUCKET'),
             'url' => env('AWS_URL'),
         ],
+        'ziroom'    =>  [
+            'driver'   =>   'local',
+            'root' => storage_path('app/ziroom'),
+            'url' => env('APP_URL').'/ziroom/upload',
+        ]
 
     ],
 

@@ -19,3 +19,44 @@ if (!function_exists('p')){
     }
 
 }
+
+if (!function_exists('fn_curl_get')) {
+    function fn_curl_post($uri, $data)
+    {
+        // 参数数组
+        $ch = curl_init();
+        // print_r($ch);
+        curl_setopt($ch, CURLOPT_URL, $uri);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        $return = curl_exec($ch);
+        curl_close($ch);
+        return $return;
+    }
+}
+
+if (!function_exists('fn_curl_get')) {
+    function fn_curl_get($url,$param)
+    {
+        if (!empty($param)){
+            $url .= '?'.http_build_query($param);
+        }
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        $dom = curl_exec($ch);
+        curl_close($ch);
+        return $dom;
+    }
+}
+
+if (!function_exists('fn_curl_get_http_or_https')) {
+    function fn_curl_get_http_or_https()
+    {
+        $http_type = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) ? 'https:' : 'http:';
+        return $http_type;
+    }
+}
+

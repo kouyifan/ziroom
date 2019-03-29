@@ -6,7 +6,7 @@ except ImportError:
 import pytesseract
 import sys
 
-img_path = sys.argv[0]
+img_path = sys.argv[1]
 
 # Simple image to string
 print(pytesseract.image_to_string(Image.open(img_path)))

@@ -18,7 +18,10 @@ class PythonServices{
     }
 
     public function _get_image_font($img_src = ''){
-        $command = $this->shell_command->setCommand('python3.4 /scripts/python/get_ziroom_price.py /test.png');
+        $path = base_path().'/scripts/python/get_ziroom_price.py';
+        $img_path = base_path().'/test.png';
+        $command = $this->shell_command->setCommand("python3.4 $path $img_path");
+
         if ($command->execute()) {
             return $command->getOutput();
         } else {
