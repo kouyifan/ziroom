@@ -8,7 +8,7 @@ class MyServiceProvider extends ServiceProvider
 {
     public function boot(){
         //注册观察者，附件表
-        \Modules\Ziroom\Entities\asset::observe(\Modules\Ziroom\Observers\AssetObserver::class);
+        \Modules\Ziroom\Entities\Asset::observe(\Modules\Ziroom\Observers\AssetObserver::class);
     }
 
     /**
