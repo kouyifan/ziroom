@@ -17,12 +17,15 @@ class TestController extends Controller
      */
     public function test(GrabZiroomInterface $test)
     {
-        $test->getZiroomDetails('http://www.ziroom.com/z/vr/61486040.html');
+
         $page_list_data = $test->getListDataByPage(config('ziroom.Grab_Urls.rent_sharing'));
         if (!empty($page_list_data)){
             foreach ($page_list_data as $value){
-                p($value);
 
+                $detail = $test->getZiroomDetails('http://www.ziroom.com/z/vr/61486040.html');
+                $insert['parent'] = $value;
+                $insert['detail'] = $detail;
+                $test->insertZiroomDataDB($insert);
             }
 
         }

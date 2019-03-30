@@ -19,7 +19,7 @@ if (!function_exists('p')){
     }
 
 }
-
+//curl post
 if (!function_exists('fn_curl_get')) {
     function fn_curl_post($uri, $data)
     {
@@ -36,7 +36,7 @@ if (!function_exists('fn_curl_get')) {
         return $return;
     }
 }
-
+//curl get
 if (!function_exists('fn_curl_get')) {
     function fn_curl_get($url,$param)
     {
@@ -51,7 +51,7 @@ if (!function_exists('fn_curl_get')) {
         return $dom;
     }
 }
-
+//获得当前http 或者 https
 if (!function_exists('fn_curl_get_http_or_https')) {
     function fn_curl_get_http_or_https()
     {
@@ -59,4 +59,18 @@ if (!function_exists('fn_curl_get_http_or_https')) {
         return $http_type;
     }
 }
+//根据日期生成目录
+if (!function_exists('fn_create_dir_date_path')) {
+    function fn_create_dir_date_path($file = '')
+    {
+        $uuid = str_replace('-','_',(string)\Illuminate\Support\Str::uuid());
+        $date = date('Y/m/d');
+        if (!empty($file)){
+            $file = pathinfo($file);
+            $date = $date.'/'.$uuid.'.'.$file['extension'];
+        }
+        return $date;
+    }
+}
+
 

@@ -65,8 +65,8 @@ return [
         ],
         'ziroom'    =>  [
             'driver'   =>   'local',
-            'root' => storage_path('app/ziroom'),
-            'url' => env('APP_URL').'/ziroom/upload',
+            'root' => storage_path('app/public/ziroom'),
+            'url' => env('APP_URL').'/storage/ziroom',
         ]
 
     ],

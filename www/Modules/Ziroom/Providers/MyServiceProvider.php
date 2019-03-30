@@ -6,6 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class MyServiceProvider extends ServiceProvider
 {
+    public function boot(){
+        //注册观察者，附件表
+        \Modules\Ziroom\Entities\asset::observe(\Modules\Ziroom\Observers\AssetObserver::class);
+    }
+
     /**
      * Register the service provider.
      *
@@ -21,6 +26,8 @@ class MyServiceProvider extends ServiceProvider
         $this->app->singleton('Modules\Ziroom\Repositories\Contracts\GetCommonDataInterface',function ($app){
             return new \Modules\Ziroom\Repositories\Eloquent\GetCommonDataRepository();
         });
+        //注册观察者
+
 
     }
 

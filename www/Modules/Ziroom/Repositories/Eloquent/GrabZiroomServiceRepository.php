@@ -185,8 +185,32 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
             'price'         =>  $price
         ];
 
-        p($res);die;
+        return $res;
     }
+
+    //数据入库
+    public function insertZiroomDataDB($insert_data = []){
+        $storage = new FileSystemService();
+        $thumb_path = $storage->_down_file_http($insert_data['parent']['thumb'],true);
+        $new_file_path = fn_create_dir_date_path($thumb_path);
+        $file_re = $storage->_put($new_file_path,file_get_contents($thumb_path));
+        $file_url = $storage->_url($new_file_path);
+
+        if ($file_re && is_file($thumb_path)){
+            @unlink($thumb_path);
+        }
+
+
+//        \Modules\Ziroom\Entities\room::create([
+//            'z_room_id' =>  $insert_data['detail']['room_id'],
+//            'z_house_id' =>  $insert_data['detail']['z_house_id'],
+//            'name'      =>  $insert_data['parent']['title'],
+//            'thumb'     =>  $insert_data['parent']['thumb'],
+//        ]);
+
+        die;
+    }
+
 
     //下载价格图片
     private function _get_price_by_img($url = '',$room_id = 0,$house_id = 0){

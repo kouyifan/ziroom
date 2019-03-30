@@ -20,4 +20,6 @@ interface GrabZiroomInterface{
     public function getListDataByPage($url);
     //获取详情页数据
     public function getZiroomDetails($url = '');
+    //数据入库
+    public function insertZiroomDataDB($data);
 }

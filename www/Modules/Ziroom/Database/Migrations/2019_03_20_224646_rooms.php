@@ -142,6 +142,23 @@ class Rooms extends Migration
 
         });
 
+        //file
+        Schema::create('assets',function (Blueprint $table){
+
+            $table->bigIncrements('id')->comment('id');
+            $table->string('name',30)->default('');
+            $table->bigInteger('filesize')->default(0);
+            $table->tinyInteger('status')->default(0);
+            $table->string('file_key',64)->default('');
+            $table->string('filename',150)->default('');
+            $table->string('file_hash',150)->default('');
+            $table->string('file_suffix',10)->default('');
+            $table->tinyInteger('file_type')->default(0);
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
+
+        });
+
         Schema::create('test',function (Blueprint $table){
 
             $table->increments('id')->comment('id');
@@ -166,6 +183,7 @@ class Rooms extends Migration
             Schema::drop('citys');
             Schema::drop('areas');
             Schema::drop('navs');
+            Schema::drop('test');
         }
     }
 }
