@@ -221,14 +221,10 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
     public function handleZiroomList($list_url,$page_url,$room_type = '0'){
 
         $list_pages = $this->getPageByUrl($list_url,$page_url);
-
         foreach ($list_pages as $list_page) {
             $page_list_data = $this->getListDataByPage($list_page);
-
             foreach ($page_list_data as $page_list_datum){
-
                 $insert['parent'] = $page_list_datum;
-
                 $detail = $this->getZiroomDetails($page_list_datum['url']);
 
                 //先查询，有就更新
@@ -248,9 +244,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
                     $insert
                 )->onConnection('redis_grab')->onQueue('queue_grabs');
             }
-            break;
         }
-
     }
 
     //地铁查询

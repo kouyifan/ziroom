@@ -4,35 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/www/config/custom.php" description="];&#10;" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_20_224646_rooms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Area.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Area.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Asset.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Asset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Room.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/RoomsPerson.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/RoomsPerson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/RoomsSlave.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/RoomsSlave.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Subway.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Entities/Subway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Helpers/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Http/Helpers/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Observers/AssetObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Observers/AssetObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Providers/MyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Providers/MyServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Contracts/GrabZiroomInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Services/FileSystemService.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Services/FileSystemService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/app/Helpers/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Helpers/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/public/tmp.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/public/tmp.png" afterDir="false" />
-    </list>
+    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="188" column="38" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="38" />
+            <state relative-caret-position="252">
+              <caret line="216" column="40" selection-start-line="216" selection-start-column="40" selection-end-line="216" selection-end-column="40" />
               <folding>
                 <element signature="e#137#199#0#PHP" expanded="true" />
               </folding>
@@ -59,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#137#193#0#PHP" expanded="true" />
               </folding>
@@ -72,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
-              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
               <folding>
                 <element signature="e#42#73#0#PHP" expanded="true" />
               </folding>
@@ -89,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="418">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#31#74#0#PHP" expanded="true" />
               </folding>
@@ -273,11 +245,11 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Observers/AssetObserver.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Observers/RoomGrabDataObserver.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" />
-        <option value="$PROJECT_DIR$/www/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomHandleJobs.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php" />
+        <option value="$PROJECT_DIR$/www/app/Console/Kernel.php" />
       </list>
     </option>
   </component>
@@ -574,12 +546,12 @@
       <workItem from="1553949842243" duration="8856000" />
       <workItem from="1554037439397" duration="9966000" />
       <workItem from="1554213825492" duration="11263000" />
-      <workItem from="1554271666010" duration="25486000" />
+      <workItem from="1554271666010" duration="25777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245470000" />
+    <option name="totallyTimeSpent" value="245761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,9 +564,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.22654584" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.22654584" />
       <window_info id="Structure" order="1" sideWeight="0.37070253" side_tool="true" weight="0.26172706" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -607,7 +578,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49946696" visible="true" weight="0.40953413" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49946696" visible="true" weight="0.40953413" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2751896" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.25893825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -934,42 +905,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#31#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="21" column="119" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="119" />
           <folding>
             <element signature="e#51#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding>
-            <element signature="e#39#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomHandleJobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-          <folding>
-            <element signature="e#39#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -994,12 +935,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php">
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomHandleJobs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="528">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
           <folding>
-            <element signature="e#137#193#0#PHP" expanded="true" />
+            <element signature="e#39#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabJobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="e#39#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1007,7 +958,7 @@
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="e#42#73#0#PHP" expanded="true" />
           </folding>
@@ -1016,10 +967,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="188" column="38" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="38" />
+        <state relative-caret-position="252">
+          <caret line="216" column="40" selection-start-line="216" selection-start-column="40" selection-end-line="216" selection-end-column="40" />
           <folding>
             <element signature="e#137#199#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#137#193#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#31#74#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
