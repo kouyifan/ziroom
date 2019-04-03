@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/www/config/custom.php" description="];&#10;" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/config/queue.php" afterDir="false" />
-    </list>
+    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="330">
+              <caret line="29" column="95" lean-forward="true" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
               <folding>
                 <element signature="e#31#74#0#PHP" expanded="true" />
               </folding>
@@ -56,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#51#82#0#PHP" expanded="true" />
               </folding>
@@ -77,8 +73,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/vendor/nwidart/laravel-modules/src/Commands/SeedCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="1201">
               <caret line="208" column="38" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+              <folding>
+                <element signature="e#42#73#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +168,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="artisan grabZiroom:list" />
       <command text="artisan list " />
       <command text="artisan grabZiroom:list" />
       <command text="artisan list " />
@@ -185,6 +192,7 @@
       <command text="artisan module:migrate-refresh --seed " />
       <command text="artisan config:clear" />
       <command text="artisan config:cache" />
+      <command text="artisan module:migrate-refresh --seed " />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -244,10 +252,10 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomHandleJobs.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php" />
-        <option value="$PROJECT_DIR$/www/app/Console/Kernel.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" />
         <option value="$PROJECT_DIR$/www/config/queue.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" />
+        <option value="$PROJECT_DIR$/www/app/Console/Kernel.php" />
       </list>
     </option>
   </component>
@@ -446,6 +454,14 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="Ziroom" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ziroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ziroom" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Ziroom" type="462c0819:PsiDirectoryNode" />
               <item name="Database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -591,12 +607,12 @@
       <workItem from="1553949842243" duration="8856000" />
       <workItem from="1554037439397" duration="9966000" />
       <workItem from="1554213825492" duration="11263000" />
-      <workItem from="1554271666010" duration="27141000" />
+      <workItem from="1554271666010" duration="27405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247125000" />
+    <option name="totallyTimeSpent" value="247389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +624,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.22654584" />
       <window_info id="Structure" order="1" sideWeight="0.37070253" side_tool="true" weight="0.26172706" />
@@ -925,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-          <folding>
-            <element signature="e#42#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -989,37 +995,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/vendor/nwidart/laravel-modules/src/Commands/SeedCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="208" column="38" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#31#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/config/queue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="71" column="29" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
-          <folding>
-            <element signature="e#51#82#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,10 +1012,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#51#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/nwidart/laravel-modules/src/Commands/SeedCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="208" column="38" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Console/GrabListCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#42#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="95" lean-forward="true" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+          <folding>
+            <element signature="e#31#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -26,7 +26,7 @@ class GetCommonDataRepository implements GetCommonDataInterface
         $cache = $this->ziroom_service->_cache_nav_data(config('ziroom.nav_cache'));
         if (!empty($cache)) return $cache;
 
-        $data = \Modules\Ziroom\Entities\nav::orderBy('sort','asc')->get();
+        $data = \Modules\Ziroom\Entities\Nav::orderBy('sort','asc')->get();
         $cache = $this->ziroom_service->_cache_nav_data(config('ziroom.nav_cache'),$data);
         return $data;
     }
