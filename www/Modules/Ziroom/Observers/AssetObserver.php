@@ -22,7 +22,9 @@ class AssetObserver
     {
         $fileService = new FileSystemService();
 
-        $find = \Modules\Ziroom\Entities\Asset::where(['file_hash'=>$fileService->_get_file_hash($asset->file_path,$asset->disk)])->value('id');
+        $find = \Modules\Ziroom\Entities\Asset::where(
+            'file_hash',$fileService->_get_file_hash($asset->file_path,$asset->disk)
+        )->value('id');
 
         if ($find) return false;
 
