@@ -26,18 +26,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/RoomRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#137#193#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -45,6 +33,15 @@
               <folding>
                 <element signature="e#31#74#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Entities/Nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -104,18 +101,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomHandleJobs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-              <folding>
-                <element signature="e#39#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Http/Controllers/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -131,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>housing_allocation</find>
       <find>room_number</find>
       <find>traffic</find>
       <find>subways_desc</find>
@@ -161,6 +145,7 @@
       <find>add_room</find>
       <find>$grab</find>
       <find>grabs</find>
+      <find>nav</find>
     </findStrings>
     <replaceStrings>
       <replace>text</replace>
@@ -212,7 +197,6 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrab.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Jobs/ZiroomGrabPodcast.php" />
-        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Migrations/2019_03_19_151338_book.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Resources/views/common/nav.blade.php" />
         <option value="$PROJECT_DIR$/www/app/Helpers/ziroom.php" />
@@ -256,6 +240,7 @@
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php" />
         <option value="$PROJECT_DIR$/www/Modules/Ziroom/Database/Seeders/InitZiroomDataSeederTableSeeder.php" />
         <option value="$PROJECT_DIR$/www/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php" />
       </list>
     </option>
   </component>
@@ -488,6 +473,14 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="Ziroom" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ziroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ziroom" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Ziroom" type="462c0819:PsiDirectoryNode" />
               <item name="Repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -607,12 +600,12 @@
       <workItem from="1553949842243" duration="8856000" />
       <workItem from="1554037439397" duration="9966000" />
       <workItem from="1554213825492" duration="11263000" />
-      <workItem from="1554271666010" duration="27405000" />
+      <workItem from="1554271666010" duration="27715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247389000" />
+    <option name="totallyTimeSpent" value="247699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,9 +617,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.22654584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.22654584" />
       <window_info id="Structure" order="1" sideWeight="0.37070253" side_tool="true" weight="0.26172706" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -639,7 +633,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49946696" visible="true" weight="0.40953413" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49946696" visible="true" weight="0.40953413" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2751896" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.25893825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -652,13 +646,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -697,16 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1914">
           <caret line="92" column="33" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#139#204#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,6 +1030,23 @@
           <folding>
             <element signature="e#31#74#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Repositories/Eloquent/GetCommonDataRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#139#204#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Modules/Ziroom/Entities/Nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

@@ -17,14 +17,14 @@ class InitZiroomDataSeederTableSeeder extends Seeder
         $grab = new \Modules\Ziroom\Repositories\Eloquent\GrabZiroomServiceRepository();
         Model::unguard();
         //增加默认城市北京
-        $city = \Modules\Ziroom\Entities\city::create([
+        $city = \Modules\Ziroom\Entities\City::create([
                 'city_name'  =>  '北京'
             ]
         );
         //area
-        $this->add_area_data(\Modules\Ziroom\Entities\area::class,$grab->findZiroomAreaData(),$city->id);
+        $this->add_area_data(\Modules\Ziroom\Entities\Area::class,$grab->findZiroomAreaData(),$city->id);
         //subway
-        $this->add_area_data(\Modules\Ziroom\Entities\subway::class,$grab->findZiroomSubwayData(),$city->id);
+        $this->add_area_data(\Modules\Ziroom\Entities\Subway::class,$grab->findZiroomSubwayData(),$city->id);
         //nav
         $this->_add_nav_data();
     }
@@ -43,7 +43,7 @@ class InitZiroomDataSeederTableSeeder extends Seeder
             ]
         ];
         foreach ($insert as $v){
-            \Modules\Ziroom\Entities\nav::create($v);
+            \Modules\Ziroom\Entities\Nav::create($v);
         }
     }
 
