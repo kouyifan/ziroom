@@ -151,7 +151,7 @@ class Rooms extends Migration
             $table->string('name',60)->default('');
             $table->bigInteger('file_size')->default(0);
             $table->string('file_path',150)->default('');
-            $table->char('file_hash',32)->default('')->unique();
+            $table->char('file_hash',32)->default('');
             $table->string('file_suffix',10)->default('');
             $table->string('file_type',20)->default('');
             $table->dateTime('created_at');
@@ -171,7 +171,7 @@ class Rooms extends Migration
         Schema::create('ziroom_grab_urls',function (Blueprint $table){
 
             $table->bigIncrements('id')->comment('id');
-            $table->string('url',200)->default('')->unique();
+            $table->string('url',200)->default('');
             $table->timestamps();
 
         });
