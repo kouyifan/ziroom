@@ -25,9 +25,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('grab:list list1')->everyFifteenMinutes();
-        $schedule->command('grab:list list2')->everyFifteenMinutes();
-        $schedule->command('grab:list list3')->everyFifteenMinutes();
+        $schedule->command('grab:list list1')->everyMinute();
+        $schedule->command('grab:list list2')->everyMinute();
+        $schedule->command('grab:list list3')->everyMinute();
     }
 
     /**
