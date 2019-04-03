@@ -4,7 +4,7 @@ namespace Modules\Ziroom\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-class blog extends Model
+class Blog extends Model
 {
     protected $fillable = [];
 }

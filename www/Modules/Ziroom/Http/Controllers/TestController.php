@@ -8,6 +8,8 @@ use Illuminate\Routing\Controller;
 use Modules\Ziroom\Repositories\Contracts\GrabZiroomInterface;
 use Modules\Ziroom\Jobs\ziroomGrabJobs;
 use mikehaertl\shellcommand\Command;
+use Modules\Ziroom\Entities\RoomsPerson;
+use Modules\Ziroom\Jobs\ZiroomHandleJobs;
 
 class TestController extends Controller
 {
@@ -17,18 +19,21 @@ class TestController extends Controller
      */
     public function test(GrabZiroomInterface $test)
     {
-
-        $page_list_data = $test->getListDataByPage(config('ziroom.Grab_Urls.rent_sharing'));
-        if (!empty($page_list_data)){
-            foreach ($page_list_data as $value){
-
-                $detail = $test->getZiroomDetails('http://www.ziroom.com/z/vr/61486040.html');
-                $insert['parent'] = $value;
-                $insert['detail'] = $detail;
-                $test->insertZiroomDataDB($insert);
-            }
-
-        }
+//        ZiroomHandleJobs::dispatch(['name'=>date('Y-m-d H:i:s')])->onConnection('redis_grab')->onQueue('queue_grabs');
+//        $page_list_data = $test->getListDataByPage(config('ziroom.Grab_Urls.rent_sharing'));
+//        if (!empty($page_list_data)){
+//            foreach ($page_list_data as $value){
+//
+//                $detail = $test->getZiroomDetails('http://www.ziroom.com/z/vr/61600373.html');
+//
+//                $insert['parent'] = $value;
+//                $insert['detail'] = $detail;
+//                $insert['room_type'] = '0';//房屋类型
+//                $insert['luxury_house'] = '0';//豪宅
+//                $test->insertZiroomDataDB($insert);
+//            }
+//
+//        }
 
     }
 

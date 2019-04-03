@@ -4,7 +4,7 @@ namespace Modules\Ziroom\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-class subway extends Model
+class Subway extends Model
 {
     protected $fillable = [];
     public $timestamps = false;

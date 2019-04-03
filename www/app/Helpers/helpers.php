@@ -72,5 +72,27 @@ if (!function_exists('fn_create_dir_date_path')) {
         return $date;
     }
 }
-
-
+//获得文件ext
+if (!function_exists('fn_get_file_ext')) {
+    function fn_get_file_ext($file = '')
+    {
+        $pathinfo = pathinfo($file);
+        return $pathinfo['extension'];
+    }
+}
+//获得文件filename
+if (!function_exists('fn_get_file_name')) {
+    function fn_get_file_name($file = '')
+    {
+        $pathinfo = pathinfo($file);
+        return $pathinfo['filename'];
+    }
+}
+//获得文件basename
+if (!function_exists('fn_get_file_basename')) {
+    function fn_get_file_basename($file = '')
+    {
+        $pathinfo = pathinfo($file);
+        return $pathinfo['basename'];
+    }
+}

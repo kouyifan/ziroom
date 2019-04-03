@@ -8,9 +8,9 @@
 namespace Modules\Ziroom\Repositories\Eloquent;
 use Modules\Ziroom\Repositories\Contracts\GrabZiroomInterface;
 use Modules\Ziroom\Services\ZiroomCacheServices;
-use phpDocumentor\Reflection\Types\This;
-use \Modules\Ziroom\Services\PythonServices;
-use \Modules\Ziroom\Services\FileSystemService;
+use Modules\Ziroom\Services\PythonServices;
+use Modules\Ziroom\Services\FileSystemService;
+use Modules\Ziroom\Repositories\Eloquent\RoomRepository;
 
 class GrabZiroomServiceRepository implements GrabZiroomInterface{
 
@@ -148,9 +148,6 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
 
         $price = $this->_get_price_by_img($url,$room_id,$house_id);
 
-
-
-
         $roommates = $html->rules([
             'sexs'  =>  ['.greatRoommate li','class'],
             'constellation' =>  ['.greatRoommate li .sign','text','',function($item){
@@ -190,27 +187,101 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
 
     //数据入库
     public function insertZiroomDataDB($insert_data = []){
-        $storage = new FileSystemService();
-        $thumb_path = $storage->_down_file_http($insert_data['parent']['thumb'],true);
-        $new_file_path = fn_create_dir_date_path($thumb_path);
-        $file_re = $storage->_put($new_file_path,file_get_contents($thumb_path));
-        $file_url = $storage->_url($new_file_path);
+        $roomRepository = new RoomRepository();
+        $traffic = $this->_select_subway_from_traffic($insert_data['detail']['traffic']);
+        $insert_data['traffics'] = $traffic;
 
-        if ($file_re && is_file($thumb_path)){
-            @unlink($thumb_path);
+        $data = [
+            'z_room_id' =>  $insert_data['detail']['room_id'],
+            'z_house_id' =>  $insert_data['detail']['house_id'],
+            'name'      =>  $insert_data['parent']['title'],
+            'month_price'   =>  $insert_data['detail']['price'] ?: 0,
+            'measure_area'  =>  $insert_data['detail']['measure_area']['1'],
+            'orientation'   =>  $insert_data['detail']['orientation']['1'],
+            'house_type'    =>  $insert_data['detail']['house_type']['1'],
+            'floor'         =>  $insert_data['detail']['floor']['1'],
+            'traffic'       =>  $traffic['subways_desc'],
+            'room_number'   =>  $insert_data['detail']['room_number']['1'],
+            'room_number_slave' =>  $insert_data['detail']['room_number']['2'] ?? '',
+            'room_nums'     =>  count($insert_data['detail']['greatRoommate']),
+            'housing_allocation'    =>  json_encode($insert_data['detail']['housing_allocation']),
+            'housing_desc'  =>  $insert_data['detail']['housing_desc'],
+            'bathroom'      =>  in_array('独卫',$insert_data['parent']['housing_features']) ? '1':'0',
+            'independent_balcony'   => in_array('独立阳台',$insert_data['parent']['housing_features']) ? '1':'0',
+            'ten_minutes_underground'   =>  in_array('离地铁近',$insert_data['parent']['housing_features']) ? '1':'0',
+            'housing_detection' =>  json_encode($insert_data['parent']['housing_detection']),
+            'housing_features'  =>  json_encode($insert_data['parent']['housing_features'])
+        ];
+
+        //插入成功之后写一个观察者，当房源添加成功，去入住人信息表添加数据
+        $room_id = $roomRepository->add_room($data,$insert_data);
+        return $room_id;
+    }
+    //处理列表页数据
+    public function handleZiroomList($list_url,$page_url,$room_type = '0'){
+
+        $list_pages = $this->getPageByUrl($list_url,$page_url);
+
+        foreach ($list_pages as $list_page) {
+            $page_list_data = $this->getListDataByPage($list_page);
+
+            foreach ($page_list_data as $page_list_datum){
+
+                $insert['parent'] = $page_list_datum;
+
+                $detail = $this->getZiroomDetails($page_list_datum['url']);
+
+                //先查询，有就更新
+                $ziroomGrabUrl = \Modules\Ziroom\Entities\ZiroomGrabUrl::where([
+                    ['url','=',$page_list_datum['url']],
+                ])->first();
+
+                if (!$ziroomGrabUrl) $ziroomGrabUrl = new \Modules\Ziroom\Entities\ZiroomGrabUrl();
+                $ziroomGrabUrl->url = $page_list_datum['url'];
+                $ziroomGrabUrl->save();
+
+                $insert['detail'] = $detail;
+                $insert['room_type'] = $room_type;//房屋类型
+                $insert['luxury_house'] = preg_match('/豪宅/',$page_list_datum['title']) ? '1' : '0';//豪宅
+                //添加到队列
+                \Modules\Ziroom\Jobs\ZiroomHandleJobs::dispatch(
+                    $insert
+                )->onConnection('redis_grab')->onQueue('queue_grabs');
+            }
+            break;
         }
 
-
-//        \Modules\Ziroom\Entities\room::create([
-//            'z_room_id' =>  $insert_data['detail']['room_id'],
-//            'z_house_id' =>  $insert_data['detail']['z_house_id'],
-//            'name'      =>  $insert_data['parent']['title'],
-//            'thumb'     =>  $insert_data['parent']['thumb'],
-//        ]);
-
-        die;
     }
 
+    //地铁查询
+    private function _select_subway_from_traffic($traffics){
+        if (empty($traffics)) return [];
+
+        $subways = $this->findZiroomAreaOrSubwayDbData(\Modules\Ziroom\Entities\Subway::class);
+        $subways_array = [];
+        $subways_line = [];
+        $subways_desc = [];
+
+        foreach($traffics as $traffic){
+            foreach ($subways as $subway){
+                if (strstr($traffic,$subway['name'])){
+                    $subways_line[] = $subway['id'];
+                    $subways_desc[] = $traffic;
+                }
+                foreach ($subway['sons'] as $subway_sons){
+                    if (strstr($traffic,$subway_sons['name'])){
+                        $subways_array[] = $subway_sons['id'];
+                        $subways_desc[] = $traffic;
+                    }
+                }
+            }
+        }
+        return [
+            'subway_pid'  =>    implode(',',array_unique($subways_line)),
+            'subway_id'   =>    implode(',',array_unique($subways_array)),
+            'subways_desc' =>   json_encode(array_values(array_unique($subways_desc)))
+        ];
+    }
 
     //下载价格图片
     private function _get_price_by_img($url = '',$room_id = 0,$house_id = 0){
@@ -243,8 +314,19 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
             $data = $html->find($class)->eq($eq)->text();
         else
             $data = $html->find($class)->text();
+
         $data = DeleteHtml($data);
         $data = array_values(array_filter(explode(' ',$data))) ;
+
+        if ($class === '.fb'){
+            if (!empty($data['1'])){
+                $explode = explode('_',$data['1']);
+                if (!empty($explode['0']) && !empty($explode['1'])){
+                    $data['1'] = $explode['0'] ?? $explode['0'];
+                    $data['2'] = $explode['1'] ?? $explode['1'];
+                }
+            }
+        }
         return $data;
     }
 

@@ -35,7 +35,7 @@ class Rooms extends Migration
             //楼层
             $table->string('floor',20)->default('')->comment('楼层');
             //交通
-            $table->string('traffic',50)->default('')->comment('交通');
+            $table->string('traffic',500)->default('')->comment('交通');
             //房源编号
             $table->string('room_number',50)->default('')->comment('房源编号');
             //房源编号slave
@@ -43,7 +43,7 @@ class Rooms extends Migration
             //房间数量
             $table->tinyInteger('room_nums')->default(0)->comment('房间数量');
             //房屋配置
-            $table->string('housing_allocation',200)->default('')->comment('房屋配置');
+            $table->string('housing_allocation',400)->default('')->comment('房屋配置');
             //房源介绍
             $table->string('housing_desc',200)->default('')->comment('房源介绍');
             //独卫
@@ -56,15 +56,11 @@ class Rooms extends Migration
             $table->string('housing_detection',200)->default('')->comment('房屋检测');
             //房屋特色
             $table->string('housing_features',200)->default('')->comment('房屋特色');
-            //入住开始
-            $table->date('begin_time')->comment('入住时间');
-            //结束时间
-            $table->date('end_time')->comment('结束时间');
-
             $table->dateTime('created_at');
             $table->dateTime('updated_at');
         });
         \DB::statement("ALTER TABLE `rooms` comment '房屋表'");
+
         //房屋附表
         Schema::create('rooms_slaves', function (Blueprint $table) {
             $table->bigInteger('room_id')->default(0)->comment('房屋ID')->index();
@@ -93,16 +89,21 @@ class Rooms extends Migration
         //房屋入住人信息
         Schema::create('rooms_persons', function (Blueprint $table) {
             $table->bigInteger('room_id')->default(0)->comment('房屋ID')->index();
+            //房间号
+            $table->string('room_slave',10)->default('')->comment('房间编号');
             //性别
-            $table->tinyInteger('sex')->default(0)->comment('0=boy,1=girl');
+            $table->string('sex',10)->default('')->comment('性别');
             //职业
-            $table->string('job',20)->default('')->comment('职业');
+            $table->string('job',40)->default('')->comment('职业');
             //星座
             $table->string('constellation',10)->default('')->comment('星座');
             //入住开始
-            $table->date('begin_time')->comment('入住时间');
+            $table->dateTime('begin_time')->nullable(true)->comment('入住时间');
             //结束时间
-            $table->date('end_time')->comment('结束时间');
+            $table->dateTime('end_time')->nullable(true)->comment('结束时间');
+
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
         });
         \DB::statement("ALTER TABLE `rooms_persons` comment '房屋入住人信息'");
         //地铁表
@@ -146,16 +147,32 @@ class Rooms extends Migration
         Schema::create('assets',function (Blueprint $table){
 
             $table->bigIncrements('id')->comment('id');
-            $table->string('name',30)->default('');
-            $table->bigInteger('filesize')->default(0);
-            $table->tinyInteger('status')->default(0);
-            $table->string('file_key',64)->default('');
-            $table->string('filename',150)->default('');
-            $table->string('file_hash',150)->default('');
+            $table->string('disk',20)->default('');
+            $table->string('name',60)->default('');
+            $table->bigInteger('file_size')->default(0);
+            $table->string('file_path',150)->default('');
+            $table->char('file_hash',32)->default('');
             $table->string('file_suffix',10)->default('');
-            $table->tinyInteger('file_type')->default(0);
+            $table->string('file_type',20)->default('');
             $table->dateTime('created_at');
             $table->dateTime('updated_at');
+
+        });
+        //抓取数据表
+        Schema::create('room_grab_datas',function (Blueprint $table){
+
+            $table->bigIncrements('room_id')->comment('room_id')->index();
+            $table->text('data');
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
+        });
+
+        //url抓取表
+        Schema::create('ziroom_grab_urls',function (Blueprint $table){
+
+            $table->bigIncrements('id')->comment('id');
+            $table->string('url',200)->default('')->unique();
+            $table->timestamps();
 
         });
 
@@ -184,6 +201,9 @@ class Rooms extends Migration
             Schema::drop('areas');
             Schema::drop('navs');
             Schema::drop('test');
+            Schema::drop('assets');
+            Schema::drop('room_grab_datas');
+            Schema::drop('ziroom_grab_urls');
         }
     }
 }

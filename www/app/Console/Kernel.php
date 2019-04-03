@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         //
+        \Modules\Ziroom\Console\GrabListCommand::class
     ];
 
     /**
@@ -24,8 +25,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        $schedule->command('grab:list list1')->everyFifteenMinutes();
+        $schedule->command('grab:list list2')->everyFifteenMinutes();
+        $schedule->command('grab:list list3')->everyFifteenMinutes();
     }
 
     /**
@@ -36,7 +38,6 @@ class Kernel extends ConsoleKernel
     protected function commands()
     {
         $this->load(__DIR__.'/Commands');
-
         require base_path('routes/console.php');
     }
 }

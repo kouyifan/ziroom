@@ -4,7 +4,7 @@ namespace Modules\Ziroom\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-class room extends Model
+class Room extends Model
 {
     protected $fillable = [
         'z_room_id',

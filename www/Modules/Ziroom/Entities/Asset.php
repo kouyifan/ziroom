@@ -4,13 +4,11 @@ namespace Modules\Ziroom\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-class asset extends Model
+class Asset extends Model
 {
     protected $fillable = [
-        'name','status','filename'
+        'name','file_path','disk'
     ];
 
-    protected $dispatchesEvents = [
-        'created' => AssetCreated::class,
-    ];
+
 }

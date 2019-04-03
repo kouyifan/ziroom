@@ -22,9 +22,9 @@ class InitZiroomDataSeederTableSeeder extends Seeder
             ]
         );
         //area
-//        $this->add_area_data(\Modules\Ziroom\Entities\area::class,$grab->findZiroomAreaData(),$city->id);
+        $this->add_area_data(\Modules\Ziroom\Entities\area::class,$grab->findZiroomAreaData(),$city->id);
         //subway
-//        $this->add_area_data(\Modules\Ziroom\Entities\subway::class,$grab->findZiroomSubwayData(),$city->id);
+        $this->add_area_data(\Modules\Ziroom\Entities\subway::class,$grab->findZiroomSubwayData(),$city->id);
         //nav
         $this->_add_nav_data('areas');
     }

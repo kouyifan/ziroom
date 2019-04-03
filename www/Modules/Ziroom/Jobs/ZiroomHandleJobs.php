@@ -8,8 +8,9 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\DB;
+use Modules\Ziroom\Repositories\Contracts\GrabZiroomInterface;
 
-class ziroomGrabJobs implements ShouldQueue
+class ZiroomHandleJobs implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -27,12 +28,11 @@ class ziroomGrabJobs implements ShouldQueue
 
     /**
      * Execute the job.
-     * 抓取任务
+     *
      * @return void
      */
-    public function handle()
+    public function handle(GrabZiroomInterface $grab_interface)
     {
-        //
-        Db::table('test')->insert($this->data);
+        $grab_interface->insertZiroomDataDB($this->data);
     }
 }

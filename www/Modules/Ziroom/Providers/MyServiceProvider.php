@@ -9,6 +9,10 @@ class MyServiceProvider extends ServiceProvider
     public function boot(){
         //注册观察者，附件表
         \Modules\Ziroom\Entities\Asset::observe(\Modules\Ziroom\Observers\AssetObserver::class);
+        //房源表
+        \Modules\Ziroom\Entities\Room::observe(\Modules\Ziroom\Observers\RoomObserver::class);
+        //房源抓取信息表
+        \Modules\Ziroom\Entities\RoomGrabData::observe(\Modules\Ziroom\Observers\RoomGrabDataObserver::class);
     }
 
     /**
@@ -26,8 +30,6 @@ class MyServiceProvider extends ServiceProvider
         $this->app->singleton('Modules\Ziroom\Repositories\Contracts\GetCommonDataInterface',function ($app){
             return new \Modules\Ziroom\Repositories\Eloquent\GetCommonDataRepository();
         });
-        //注册观察者
-
 
     }
 

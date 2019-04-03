@@ -22,4 +22,6 @@ interface GrabZiroomInterface{
     public function getZiroomDetails($url = '');
     //数据入库
     public function insertZiroomDataDB($data);
+    //处理列表页数据
+    public function handleZiroomList($list_url,$page_url,$room_type);
 }

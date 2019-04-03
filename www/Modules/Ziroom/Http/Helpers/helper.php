@@ -25,3 +25,17 @@ function DeleteHtml($str) {
     // $str = preg_replace("/  /","",$str);  //匹配html中的空格
     return trim($str); //返回字符串
 }
+//递归删除数组的某一个值
+function delete_array_value_recursion($array,$str){
+    if (is_array($array)){
+        foreach ($array as $k =>$value){
+
+            if (is_array($value)){
+                $array[$k] = delete_array_value_recursion($value,$str);
+            } else{
+                $array[$k] = str_replace($str,'',$value);
+            }
+        }
+    }
+    return $array;
+}

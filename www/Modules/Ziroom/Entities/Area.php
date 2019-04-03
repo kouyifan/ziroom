@@ -4,7 +4,7 @@ namespace Modules\Ziroom\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-class area extends Model
+class Area extends Model
 {
     protected $fillable = [
         'city_id','area_name','area_pid'
