@@ -19,6 +19,9 @@ class TestController extends Controller
      */
     public function test(GrabZiroomInterface $test)
     {
+        $file = new \Modules\Ziroom\Services\FileSystemService();
+        $file->_deleteDirectory();
+
 //        ZiroomHandleJobs::dispatch(['name'=>date('Y-m-d H:i:s')])->onConnection('redis_grab')->onQueue('queue_grabs');
 //        $page_list_data = $test->getListDataByPage(config('ziroom.Grab_Urls.rent_sharing'));
 //        if (!empty($page_list_data)){

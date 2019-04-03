@@ -21,6 +21,11 @@ class AssetObserver
     public function created(Asset $asset)
     {
         $fileService = new FileSystemService();
+
+        $find = \Modules\Ziroom\Entities\Asset::where(['file_hash'=>$fileService->_get_file_hash($asset->file_path,$asset->disk)])->value('id');
+
+        if ($find) return false;
+
         $asset->file_size = $fileService->_get_file_size($asset->file_path,$asset->disk);
         $asset->file_hash = $fileService->_get_file_hash($asset->file_path,$asset->disk);
         $asset->file_suffix = fn_get_file_ext($asset->file_path);

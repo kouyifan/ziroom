@@ -21,6 +21,9 @@ class InitZiroomDataSeederTableSeeder extends Seeder
                 'city_name'  =>  '北京'
             ]
         );
+        //清空所有文件
+        $file = new \Modules\Ziroom\Services\FileSystemService();
+        $file->_deleteDirectory();
         //area
         $this->add_area_data(\Modules\Ziroom\Entities\Area::class,$grab->findZiroomAreaData(),$city->id);
         //subway

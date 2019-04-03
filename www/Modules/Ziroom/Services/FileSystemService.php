@@ -16,6 +16,14 @@ class FileSystemService{
         $this->storage = Storage::disk($this->disk);
     }
 
+    //清空磁盘
+    public function _deleteDirectory(){
+        $directories = $this->storage->directories();
+        foreach ($directories as $directory){
+            $this->storage->deleteDirectory($directory);
+        }
+    }
+
     //下载文件
     public function _down($file = '',$name = '',$headers = ''){
         return $this->storage->download($file);
