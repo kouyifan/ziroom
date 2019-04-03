@@ -4,7 +4,6 @@ namespace Modules\Ziroom\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Ziroom\Repositories\Contracts\GrabZiroomInterface;
 
 class InitZiroomDataSeederTableSeeder extends Seeder
 {
@@ -13,8 +12,9 @@ class InitZiroomDataSeederTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run(GrabZiroomInterface $grab)
+    public function run()
     {
+        $grab = new \Modules\Ziroom\Repositories\Eloquent\GrabZiroomServiceRepository();
         Model::unguard();
         //增加默认城市北京
         $city = \Modules\Ziroom\Entities\city::create([
@@ -26,7 +26,7 @@ class InitZiroomDataSeederTableSeeder extends Seeder
         //subway
         $this->add_area_data(\Modules\Ziroom\Entities\subway::class,$grab->findZiroomSubwayData(),$city->id);
         //nav
-        $this->_add_nav_data('areas');
+        $this->_add_nav_data();
     }
 
     private function _add_nav_data(){

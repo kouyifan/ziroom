@@ -242,7 +242,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
                 //添加到队列
                 \Modules\Ziroom\Jobs\ZiroomHandleJobs::dispatch(
                     $insert
-                )->onConnection('redis_grab')->onQueue('queue_grabs');
+                )->onConnection('redis_grab')->onQueue('grabs');
             }
         }
     }

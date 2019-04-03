@@ -69,7 +69,7 @@ return [
         'redis_grab' => [
             'driver' => 'redis',
             'connection' => 'default',
-            'queue' => 'queue_grabs',
+            'queue' => 'grabs',
             'retry_after' => 5,
         ],
 

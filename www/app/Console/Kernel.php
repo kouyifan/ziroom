@@ -25,9 +25,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command(\Modules\Ziroom\Console\GrabListCommand::class,['list1'])->everyMinute();
-        $schedule->command(\Modules\Ziroom\Console\GrabListCommand::class,['list2'])->everyMinute();
-        $schedule->command(\Modules\Ziroom\Console\GrabListCommand::class,['list3'])->everyMinute();
+        $schedule->command(\Modules\Ziroom\Console\GrabListCommand::class,['list1'])->hourly();
+        $schedule->command(\Modules\Ziroom\Console\GrabListCommand::class,['list2'])->hourly();
+        $schedule->command(\Modules\Ziroom\Console\GrabListCommand::class,['list3'])->hourly();
     }
 
     /**
