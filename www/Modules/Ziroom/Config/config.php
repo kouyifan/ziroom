@@ -14,8 +14,8 @@ return [
         'list2' =>  'http://www.ziroom.com/z/nl/z1-x1.html',
         'list2_page' =>  'http://www.ziroom.com/z/nl/z1-x1.html?p=',
 
-        'list3' =>  'http://www.ziroom.com/z/nl/z6-x1.html',
-        'list3_page' =>  'http://www.ziroom.com/z/nl/z1-x1.html?p=',
+        'list3' =>  'www.ziroom.com/z/nl/z6.html',
+        'list3_page' =>  'http://www.ziroom.com/z/nl/z6.html?p=',
 
         'room_info_api' =>  'http://www.ziroom.com/detail/info',//id=&house_id
     ],
