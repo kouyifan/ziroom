@@ -240,7 +240,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
                 $insert['detail'] = $detail;
                 $insert['room_type'] = $room_type;//房屋类型
                 $insert['luxury_house'] = preg_match('/豪宅/',$page_list_datum['title']) ? '1' : '0';//豪宅
-                if (!\Modules\Ziroom\Entities\Room::where('room_id',$detail['room_id'])->value('id')){
+                if (!\Modules\Ziroom\Entities\Room::where('z_room_id',$detail['room_id'])->value('id')){
                     //添加到队列
                     \Modules\Ziroom\Jobs\ZiroomHandleJobs::dispatch(
                         $insert
