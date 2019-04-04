@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/www/config/custom.php" description="];&#10;" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/Modules/Ziroom/Config/config.php" afterDir="false" />
-    </list>
+    <list default="true" id="b72de878-086a-415c-a76d-5ebc832ce014" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,11 +158,11 @@
       <find>deleteDir</find>
       <find>add_roo</find>
       <find>grabs</find>
-      <find>handleZiroomList</find>
       <find>entities</find>
       <find>redis_grab</find>
       <find>h</find>
       <find>unique</find>
+      <find>handleZiroomList</find>
     </findStrings>
     <replaceStrings>
       <replace>text</replace>
@@ -202,6 +199,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -647,12 +647,12 @@
       <workItem from="1554037439397" duration="9966000" />
       <workItem from="1554213825492" duration="11263000" />
       <workItem from="1554271666010" duration="32950000" />
-      <workItem from="1554341603326" duration="242000" />
+      <workItem from="1554341603326" duration="522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253176000" />
+    <option name="totallyTimeSpent" value="253456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,9 +665,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62929744" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" sideWeight="0.37070253" side_tool="true" weight="0.26172706" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
