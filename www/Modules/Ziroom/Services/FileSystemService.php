@@ -67,6 +67,10 @@ class FileSystemService{
         return $this->storage->url($filename);
     }
 
+    public function _delete_file($file){
+        return $this->storage->delete($file);
+    }
+
     public function _down_file_http($http_file = '',$path = ''){
         $new_path = public_path() . '/'.fn_get_file_basename($http_file);
         $path = $path ? $new_path : public_path().'/tmp.png';
@@ -107,6 +111,13 @@ class FileSystemService{
 
     //文件生成入库，返回ID
     public function _insert_asset_file($insert = []){
+        $file_hash = $this->_get_file_hash($insert['file_path'],$this->disk);
+        $find = \Modules\Ziroom\Entities\Asset::where('file_hash',$file_hash)->value('id');
+
+        if ($find) {
+            $this->_delete_file($insert['file_path']);
+            return false;
+        }
 
         $asset = new Asset;
         $asset->name = $insert['name'];
