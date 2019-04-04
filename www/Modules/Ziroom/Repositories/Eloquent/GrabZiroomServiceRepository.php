@@ -224,6 +224,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
         foreach ($list_pages as $list_page) {
             $page_list_data = $this->getListDataByPage($list_page);
             foreach ($page_list_data as $page_list_datum){
+
                 $insert['parent'] = $page_list_datum;
                 $detail = $this->getZiroomDetails($page_list_datum['url']);
 
@@ -239,10 +240,13 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
                 $insert['detail'] = $detail;
                 $insert['room_type'] = $room_type;//房屋类型
                 $insert['luxury_house'] = preg_match('/豪宅/',$page_list_datum['title']) ? '1' : '0';//豪宅
-                //添加到队列
-                \Modules\Ziroom\Jobs\ZiroomHandleJobs::dispatch(
-                    $insert
-                )->onConnection('redis_grab')->onQueue('grabs');
+                if (!\Modules\Ziroom\Entities\Room::where('room_id',$detail['room_id'])->value('id')){
+                    //添加到队列
+                    \Modules\Ziroom\Jobs\ZiroomHandleJobs::dispatch(
+                        $insert
+                    )->onConnection('redis_grab')->onQueue('grabs');
+                }
+
             }
         }
     }
