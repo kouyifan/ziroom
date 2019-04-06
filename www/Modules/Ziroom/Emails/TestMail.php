@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class testMail extends Mailable
+class TestMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -28,6 +28,7 @@ class testMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('26745709@qq.com')
+            ->view('ziroom::email.test');
     }
 }

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <h1 class="h1-logo">
-        <a class="navbar-brand logo" href="/">
+        <a class="navbar-brand logo" href="{{config('ziroom.home_url')}}">
             <img src="{{asset('ziroom/images/logo.png')}}" alt="">
         </a>
     </h1>
@@ -27,11 +27,24 @@
                         {{$v['name']}} <span class="sr-only">(current)</span>
                     </a>
                 </li>
+
             @endforeach
         </ul>
         <div class="form-inline my-2 my-lg-0 nav-user-right">
-            <a href="{{url('login')}}">登录</a>
-            <a href="{{url('register')}}">注册</a>
+            @auth
+                <a href="">
+                    已登录
+                </a>
+                <a href="{{route('ziroom_user_logout')}}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">退出</a>
+            @else
+                <a href="{{route('ziroom_user_login')}}">登录</a>
+                <a href="{{route('ziroom_user_register')}}">注册</a>
+            @endauth
+
+            <form id="logout-form" action="{{ route('ziroom_user_logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
+
         </div>
     </div>
 </nav>

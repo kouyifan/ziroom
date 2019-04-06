@@ -14,14 +14,21 @@
 //Route::prefix('ziroom')->group(function() {
 //    Route::get('/', 'ZiroomController@index');
 //});
-Route::namespace('\Modules\Ziroom\Http\Controllers')
+
+Route::prefix('ziroom')
     ->middleware('ziroom_web_common')
+    ->namespace('\Modules\Ziroom\Http\Controllers')
     ->group(function() {
-//    首页
-    Route::get('/', 'HomeController@index');
+
+    Route::get('/home', 'HomeController@index');
     Route::get('/list', 'ListController@index');
+    Route::get('/test','TestController@test');
+//    登录
+    Route::get('/login','User\LoginController@index')->name('ziroom_user_login');
+    Route::post('/login','User\LoginController@login')->name('ziroom_user_login_post');
+    Route::post('/logout','User\LoginController@logout')->name('ziroom_user_logout');
+//    注册
+    Route::get('/register','User\RegisterController@index')->name('ziroom_user_register');
+    Route::post('/register','User\RegisterController@register')->name('ziroom_user_register_post');
 });
 
-Route::prefix('ziroom')->namespace('\Modules\Ziroom\Http\Controllers')->group(function(){
-   Route::get('/test','TestController@test');
-});

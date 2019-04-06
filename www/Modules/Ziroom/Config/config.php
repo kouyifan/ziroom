@@ -3,6 +3,7 @@
 return [
     'name' => 'Ziroom',
     'domain'    =>  'http://ziroom.koukousky.com',
+    'home_url'  =>  '/ziroom/home',
 
     //cache key
     'nav_cache'    =>  'ziroom_cache_nav_key',

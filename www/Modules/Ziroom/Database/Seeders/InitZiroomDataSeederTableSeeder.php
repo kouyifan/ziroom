@@ -36,12 +36,12 @@ class InitZiroomDataSeederTableSeeder extends Seeder
         $insert = [
             [
                 'name'  =>  '首页',
-                'url'   =>  '/',
+                'url'   =>  '/ziroom/home',
                 'sort'  =>  '1'
             ],
             [
                 'name'  =>  '租房',
-                'url'   =>  'list',
+                'url'   =>  '/ziroom/list',
                 'sort'  =>  '2'
             ]
         ];
