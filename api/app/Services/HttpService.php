@@ -73,7 +73,7 @@ class HttpService{
     public function getResult(){
 
         $response = $this->_request();
-        p($response);
+        p($response->getBody());
         if ($response->getStatusCode() == '200'){
             return $response->getBody();
         } else{
