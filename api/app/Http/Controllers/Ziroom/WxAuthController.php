@@ -30,12 +30,15 @@ class WxAuthController extends Controller{
      */
     public function get_openid(Request $request,HttpService $httpservice){
         $param = $this->validate($request,[
-            'code'  =>  'required'
+            'code'  =>  'required',
+            'appid'  =>  'required',
+            'secret' =>  'required'
         ]);
-        $param['appid'] = config('wx.ziroom.wx_appid');
-        $param['secret'] = config('wx.ziroom.wx_secret');
+//        $param['appid'] = config('wx.ziroom.wx_appid');
+//        $param['secret'] = config('wx.ziroom.wx_secret');
         $param['js_code'] = $param['code'];
-
+        unset($param['code']);
+        
         $res = $httpservice->setUrl(config('wx.api.jscode2session'))
             ->setMthod('GET')->setRequestData($param)->getResult();
         return $this->responseJson($res);

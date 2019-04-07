@@ -82,12 +82,4 @@ class HttpService{
         }
     }
 
-//    public function __call($name, $args)
-//    {
-//        array_unshift($args, $this->value);
-//        $this->value = call_user_func_array($name, $args);
-//        return $this;
-//    }
-
-
 }
