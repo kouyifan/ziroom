@@ -56,8 +56,6 @@ class HttpService{
                 break;
         }
         $res = [];
-        p($this->url);
-        die;
         try {
             $res = $this->client->request($this->quest_method,$this->url,$this->request_data);
         } catch (RequestException $e) {
@@ -75,9 +73,10 @@ class HttpService{
     public function getResult(){
 
         $response = $this->_request();
-        p($response);
         if ($response && $response->getStatusCode() == '200'){
-            return $response->getBody();
+            $body = $response->getBody();
+            $content = $body->getContents();
+            return $content;
         } else{
             return $this->error;
         }
