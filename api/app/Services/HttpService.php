@@ -74,9 +74,7 @@ class HttpService{
 
         $response = $this->_request();
         if ($response && $response->getStatusCode() == '200'){
-            $body = $response->getBody();
-            $content = $body->getContents();
-            return $content;
+            return $response->getBody()->getContents();
         } else{
             return $this->error;
         }
