@@ -55,13 +55,13 @@ class HttpService{
             default:
                 break;
         }
-        $res = $this->client->request($this->quest_method,$this->url);
+        $res = [];
         try {
             $res = $this->client->request($this->quest_method,$this->url,$this->request_data);
         } catch (RequestException $e) {
             //echo $e->getRequest();
             if ($e->hasResponse()) {
-                $this->error = $e->getResponse();
+                $res = $e->getResponse();
                 return false;
             }
         }
@@ -73,8 +73,8 @@ class HttpService{
     public function getResult(){
 
         $response = $this->_request();
-        p($response->getBody());
-        if ($response->getStatusCode() == '200'){
+        p($response);
+        if ($response && $response->getStatusCode() == '200'){
             return $response->getBody();
         } else{
             return $this->error;
