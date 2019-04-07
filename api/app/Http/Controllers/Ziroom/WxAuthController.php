@@ -38,8 +38,8 @@ class WxAuthController extends Controller{
 
         $res = $httpservice->setUrl(config('wx.api.jscode2session'))
             ->setMthod('GET')->setRequestData($param)->getResult();
-        p($res);
         return $this->responseJson($res);
+
     }
 
 

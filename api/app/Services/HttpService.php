@@ -61,7 +61,7 @@ class HttpService{
         } catch (RequestException $e) {
             //echo $e->getRequest();
             if ($e->hasResponse()) {
-                $res = $e->getResponse();
+//                $res = $e->getResponse();
                 return false;
             }
         }
@@ -74,9 +74,11 @@ class HttpService{
 
         $response = $this->_request();
         if ($response && $response->getStatusCode() == '200'){
-            return $response->getBody()->getContents();
+            $content = $response->getBody()->getContents();
+            $res = is_null(json_encode($content)) ? $content : json_decode($content,true);
+            return $res;
         } else{
-            return $this->error;
+            return false;
         }
     }
 
