@@ -40,7 +40,7 @@ class WxAuthController extends Controller{
 
 
 
-        return $this->responseJson($res,'error',404);
+        return $this->responseJson($res);
     }
 
 

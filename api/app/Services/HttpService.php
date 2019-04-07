@@ -55,7 +55,6 @@ class HttpService{
             default:
                 break;
         }
-        $res = [];
         $res = $this->client->request($this->quest_method,$this->url);
         try {
             $res = $this->client->request($this->quest_method,$this->url,$this->request_data);
@@ -74,7 +73,7 @@ class HttpService{
     public function getResult(){
 
         $response = $this->_request();
-
+        p($response);
         if ($response->getStatusCode() == '200'){
             return $response->getBody();
         } else{
