@@ -57,12 +57,9 @@ class HttpService{
         }
         $res = [];
         $res = $this->client->request($this->quest_method,$this->url);
-        p($res);die;
         try {
             $res = $this->client->request($this->quest_method,$this->url,$this->request_data);
-            p($res);die;
         } catch (RequestException $e) {
-            p($e->getRequest());
             //echo $e->getRequest();
             if ($e->hasResponse()) {
                 $this->error = $e->getResponse();
