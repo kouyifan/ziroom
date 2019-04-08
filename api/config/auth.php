@@ -38,8 +38,12 @@ return [
     'guards' => [
        'api' => [
             'driver' => 'jwt',
-//            'provider' => 'users',
+            'provider' => 'users',
         ],
+        'app'   =>  [
+            'driver' => 'jwt',
+            'provider' => 'app',
+        ]
     ],
 
     /*
@@ -60,7 +64,14 @@ return [
     */
 
     'providers' => [
-        //
+        'users' => [
+            'driver' => 'eloquent',
+            'model'  =>  App\User::class,
+        ],
+        'app'   =>  [
+            'driver' => 'eloquent',
+            'model'  =>  App\Http\Entities\App::class,
+        ]
     ],
 
     /*

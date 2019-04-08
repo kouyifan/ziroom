@@ -80,6 +80,7 @@ $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\AuthServiceProvider::class);
 $app->register(App\Providers\EventServiceProvider::class);
 
+
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
@@ -91,22 +92,31 @@ $app->register(App\Providers\EventServiceProvider::class);
 |
 */
 $configs = [
-    'debugbar', 'app', 'auth', 'cache', 'filesystems', 'queue', 'database', 'jwt','wx'
+    'debugbar', 'app', 'auth', 'cache', 'filesystems', 'queue', 'database', 'jwt','wx','api'
 ];
 //批量加载config
 fn_batch_config($app, $configs);
 
 
 $app->router->group([
-    'namespace' => 'App\Http\Controllers',
+//    'namespace' => 'App\Http\Controllers',
 ], function ($router) {
     require __DIR__ . '/../routes/web.php';
 });
+
 $app->router->group([
     'namespace' => 'App\Http\Controllers\Ziroom',
     'prefix' => 'ziroom'
 ], function ($router) {
     require __DIR__ . '/../routes/ziroom.php';
+});
+$app->router->group([
+    'namespace' => 'App\Http\Controllers',
+//    'middleware' => 'auth:api',
+    'prefix' => 'auth'
+], function ($router) {
+    require __DIR__ . '/../routes/auth.php';
+
 });
 
 return $app;

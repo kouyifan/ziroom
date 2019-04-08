@@ -15,8 +15,12 @@ class AppServiceProvider extends ServiceProvider
     {
         //jwt
         $this->app->register(\Tymon\JWTAuth\Providers\LumenServiceProvider::class);
+//        dingo/api
+        $this->app->register(\Dingo\Api\Provider\LumenServiceProvider::class);
+
         if (env('APP_DEBUG')) {
             $this->app->register(\Barryvdh\Debugbar\LumenServiceProvider::class);
         }
+
     }
 }

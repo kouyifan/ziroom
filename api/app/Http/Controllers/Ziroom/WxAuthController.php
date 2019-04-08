@@ -38,7 +38,7 @@ class WxAuthController extends Controller{
 //        $param['secret'] = config('wx.ziroom.wx_secret');
         $param['js_code'] = $param['code'];
         unset($param['code']);
-        
+
         $res = $httpservice->setUrl(config('wx.api.jscode2session'))
             ->setMthod('GET')->setRequestData($param)->getResult();
         return $this->responseJson($res);
