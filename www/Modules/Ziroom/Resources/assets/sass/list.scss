@@ -1,0 +1,135 @@
+.list-wrap{
+  .node_infor{
+    padding-top: 5px;
+    .org{
+      color: $a_hover;
+    }
+  }
+  //搜索
+  .top-search-wrap{
+    width: 100%;
+    overflow: hidden;
+    .top-search{
+      background: url('../images/search.png') no-repeat 0 0;
+      height: 33px;
+      width: 400px;
+      margin-right: 10px;
+      float: left;
+      padding: 1px;
+      height: 48px;
+      z-index: 666;
+      margin-top: 10px;
+      position: relative;
+      .txt{
+        width: 330px;
+        font-size: 14px;
+        color: #666;
+        float: left;
+        background: 0;
+        padding: 6px 10px;
+      }
+      .btn_sub{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+      }
+    }
+  }
+
+
+  .top-search-container{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    min-height: 106px;
+    padding: 10px 15px 15px 15px;
+    position: relative;
+    font-size: 14px;
+    ul {
+      overflow: hidden;
+      li{
+        line-height: 20px;
+        padding: 0 0 7px 0;
+        border-bottom: dotted 1px #ccc;
+        position: relative;
+        .left-label{
+          float: left;
+          text-align: center;
+          width: 5%;
+          font-weight: bold;
+          padding-top: 7px;
+          height: 27px;
+        }
+        .li-cont{
+          float: left;
+          width: 95%;
+          position: relative;
+        }
+        &:after{
+          content:"";
+          display: block;
+          clear: both;
+        }
+        a{
+          display: block;
+          float: left;
+          padding: 0 5px;
+          margin-right: 13px;
+          float: left;
+          margin-top: 7px;
+          position: relative;
+          z-index: 2;
+          &.active{
+            color: #fff;
+            background: #ffa000;
+            border-radius: 5px;
+          }
+          position: relative;
+        }
+        .dropdown-box{
+          overflow: hidden;
+          position: absolute;
+          top:30px;
+          left: 5%;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 7px 10px 10px 10px;
+          background-color: #fff;
+          display: none;
+          z-index: 10;
+          width: 95%;
+          a{
+
+          }
+          &.active{
+            display: block;
+          }
+        }
+
+      }
+    }
+    .div-housing_features{
+      .div-orientation{
+        width: 102px;
+        height: 20px;
+        padding-top: 5px;
+        float: left;
+        margin-right: 10px;
+        select.select-orientation{
+          width: 102px;
+          height: 23px;
+          line-height: 23px;
+          padding: 0px 5px 3px 0;
+        }
+      }
+      .ten_minutes_underground{
+        float: left;
+        width: 150px;
+        padding-top: 7px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -191,17 +191,6 @@ if (token) {
 
 /***/ }),
 
-/***/ "./Resources/assets/sass/home.scss":
-/*!*****************************************!*\
-  !*** ./Resources/assets/sass/home.scss ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -36689,15 +36678,14 @@ module.exports = function(module) {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************!*\
-  !*** multi ./Resources/assets/js/app.js ./Resources/assets/sass/app.scss ./Resources/assets/sass/home.scss ***!
-  \*************************************************************************************************************/
+/*!***************************************************************************!*\
+  !*** multi ./Resources/assets/js/app.js ./Resources/assets/sass/app.scss ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! H:\wamp\www\projects\ziroom\www\Modules\Ziroom\Resources\assets\js\app.js */"./Resources/assets/js/app.js");
-__webpack_require__(/*! H:\wamp\www\projects\ziroom\www\Modules\Ziroom\Resources\assets\sass\app.scss */"./Resources/assets/sass/app.scss");
-module.exports = __webpack_require__(/*! H:\wamp\www\projects\ziroom\www\Modules\Ziroom\Resources\assets\sass\home.scss */"./Resources/assets/sass/home.scss");
+module.exports = __webpack_require__(/*! H:\wamp\www\projects\ziroom\www\Modules\Ziroom\Resources\assets\sass\app.scss */"./Resources/assets/sass/app.scss");
 
 
 /***/ })

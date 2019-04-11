@@ -3,7 +3,6 @@
 @section('title', '北京租房')
 
 @section('styles')
-    <link rel="stylesheet" href="{{ mix('ziroom/css/home.css') }}">
     <style>
         h1{
             margin: 20px;

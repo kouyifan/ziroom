@@ -40,7 +40,7 @@
 
             $(".dropdown").mouseleave(function(){
 
-            })
+            });
         })
     </script>
     {{--script--}}

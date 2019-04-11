@@ -58,5 +58,20 @@ class RoomRepository implements RoomInterface{
         return $room->id;
     }
 
+    //获取自如数据
+    public function selectRoomData(){
+        $room_type = 0;
+        $area = 0;
+        $subway = 0;
+        $price = 0;
+        $house_type = 0;
+        $measure_area = 0;
+        $housing_features = 0;
+        $ten_minutes_underground = 0;
+
+
+
+
+    }
 
 }

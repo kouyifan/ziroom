@@ -11,6 +11,9 @@ interface RoomInterface {
 
     //create
     public function add_room();
+    //select
+    public function selectRoomData();
 
 
 }
+
