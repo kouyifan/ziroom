@@ -24,7 +24,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
 
     public function __construct()
     {
-        $rand_ip = Rand_IP();
+//        $rand_ip = Rand_IP();
         $this->header = [
             'timeout' => '30',
             'proxy'=>'https://210.150.121.110:3128',
