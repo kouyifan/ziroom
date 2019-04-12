@@ -19,6 +19,7 @@ class TestController extends Controller
      */
     public function test(GrabZiroomInterface $test)
     {
+//        p(Rand_IP());die;
         $data = $test->findZiroomSubwayData();
         p($data);die;
 //        \Mail::to('26745709@qq.com')->send(new \Modules\Ziroom\Emails\TestMail);
