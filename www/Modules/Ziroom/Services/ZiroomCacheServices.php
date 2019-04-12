@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Cache;
 class ZiroomCacheServices{
 
     private function _cache_data_public($key = '', $data = [],$ttl = 60){
+        return '';
         if(Cache::has($key)){
             return Cache::get($key);
         } else{
