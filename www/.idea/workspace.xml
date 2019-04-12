@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="528">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="e#137#199#0#PHP" expanded="true" />
               </folding>
@@ -483,12 +483,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554984012126</updated>
       <workItem from="1554984013417" duration="15476000" />
-      <workItem from="1555034418828" duration="2425000" />
+      <workItem from="1555034418828" duration="2673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17901000" />
+    <option name="totallyTimeSpent" value="18149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -703,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Ziroom/Repositories/Eloquent/GrabZiroomServiceRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="528">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding>
             <element signature="e#137#199#0#PHP" expanded="true" />
           </folding>
