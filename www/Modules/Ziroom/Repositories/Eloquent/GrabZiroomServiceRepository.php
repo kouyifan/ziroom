@@ -27,17 +27,16 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
         $rand_ip = Rand_IP();
         $this->header = [
             'timeout' => '30',
+            'proxy'=>'https://160.16.52.185:3128',
             'headers' => [
-//                "Host"  =>  "www.ziroom.com",
-//                'Referer' => 'http://www.ziroom.com/',
+                "Host"  =>  "www.ziroom.com",
+                'Referer' => 'http://www.ziroom.com/',
                 "User-Agent"    => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
                 "Accept"    =>"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
                 "Accept-Encoding"   => "gzip",
                 "Accept-Language"   => "zh-CN,zh;q=0.8",
                 "Connection"    =>  "keep-alive",
                 "Upgrade-Insecure-Requests" =>  '1',
-                'proxy'=>'http://112.84.72.43:9999',
-
                 ]
         ];
         $this->ziroom_cache_service = new ZiroomCacheServices;
