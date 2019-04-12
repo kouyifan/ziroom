@@ -291,7 +291,7 @@ class GrabZiroomServiceRepository implements GrabZiroomInterface{
 
         $data = fn_curl_get(config('ziroom.Grab_Urls.room_info_api'),['id'=>$room_id,'house_id'=>$house_id]);
         $res = is_null(json_decode($data)) ? [] : json_decode($data,TRUE);
-        if ($res['code'] !== '200' && empty($res['data']['price'])) return '';
+        if (!empty($res['code']) && $res['code'] !== '200' && empty($res['data']['price'])) return '';
 
         $price_img = fn_curl_get_http_or_https().$res['data']['price']['1'];
         $price_pos = $res['data']['price']['2'];
