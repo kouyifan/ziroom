@@ -82,7 +82,7 @@ class importToEsCommand extends Command
         $end = end($data);
 
         $res = [
-            'data'  =>  !empty($data) ?? false,
+            'data'  =>  $data,
             'id'    =>  !empty($end['Id']) ? $end['Id'] : false
         ];
         return $res;
