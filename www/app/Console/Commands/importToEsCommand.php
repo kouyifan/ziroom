@@ -56,7 +56,7 @@ class importToEsCommand extends Command
             if (empty($res['data'])) break;
             $id = $res['id'] ?? 0;
             if (!$id) break;
-            echo $id;
+           
             $param = $res['data'];
             //入库
             $insert_res = $this->insert_index($param);
