@@ -53,6 +53,7 @@ class importToEsCommand extends Command
         while (true){
 
             $res = $this->select_data($id);
+            if (empty($res['data'])) break;
             $id = $res['id'] ?? 0;
             if (!$id) break;
             echo $id;
@@ -66,10 +67,10 @@ class importToEsCommand extends Command
                    'max_id' =>  $id
                 ]);
             }
-            $num++;
-            if ($num > 3){
-                break;
-            }
+//            $num++;
+//            if ($num > 3){
+//                break;
+//            }
         }
 
 
@@ -77,11 +78,11 @@ class importToEsCommand extends Command
 
     //查询数据
     private function select_data($id = 0){
-        $data = \App\Posts::where('Id','>',$id)->orderBy('Id','ASC')->take(2)->get()->toArray();
+        $data = \App\Posts::where('Id','>',$id)->orderBy('Id','ASC')->take(500)->get()->toArray();
         $end = end($data);
 
         $res = [
-            'data'  =>  $data,
+            'data'  =>  !empty($data) ?? false,
             'id'    =>  !empty($end['Id']) ? $end['Id'] : false
         ];
         return $res;
