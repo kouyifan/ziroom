@@ -23,5 +23,5 @@ return [
     'disk'  =>  'ziroom',
 
     'room_slave_sex'    =>  ['current','man','woman'],
-
+    'default_room_img'  =>  '/ziroom/images/default.webp'
 ];

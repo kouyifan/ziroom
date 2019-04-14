@@ -30,7 +30,10 @@ class MyServiceProvider extends ServiceProvider
         $this->app->singleton('Modules\Ziroom\Repositories\Contracts\GetCommonDataInterface',function ($app){
             return new \Modules\Ziroom\Repositories\Eloquent\GetCommonDataRepository();
         });
-
+        //获取房源数据
+        $this->app->singleton('Modules\Ziroom\Repositories\Contracts\RoomInterface',function ($app){
+            return new \Modules\Ziroom\Repositories\Eloquent\RoomRepository();
+        });
     }
 
     /**

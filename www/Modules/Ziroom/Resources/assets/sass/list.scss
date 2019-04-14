@@ -1,15 +1,18 @@
-.list-wrap{
-  .node_infor{
+.list-wrap {
+  .node_infor {
     padding-top: 5px;
-    .org{
+
+    .org {
       color: $a_hover;
     }
   }
+
   //搜索
-  .top-search-wrap{
+  .top-search-wrap {
     width: 100%;
     overflow: hidden;
-    .top-search{
+
+    .top-search {
       background: url('../images/search.png') no-repeat 0 0;
       height: 33px;
       width: 400px;
@@ -20,7 +23,8 @@
       z-index: 666;
       margin-top: 10px;
       position: relative;
-      .txt{
+
+      .txt {
         width: 330px;
         font-size: 14px;
         color: #666;
@@ -28,7 +32,8 @@
         background: 0;
         padding: 6px 10px;
       }
-      .btn_sub{
+
+      .btn_sub {
         position: absolute;
         top: 0;
         right: 0;
@@ -38,7 +43,7 @@
   }
 
 
-  .top-search-container{
+  .top-search-container {
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -47,14 +52,17 @@
     padding: 10px 15px 15px 15px;
     position: relative;
     font-size: 14px;
+
     ul {
       overflow: hidden;
-      li{
+
+      li {
         line-height: 20px;
         padding: 0 0 7px 0;
         border-bottom: dotted 1px #ccc;
         position: relative;
-        .left-label{
+
+        .left-label {
           float: left;
           text-align: center;
           width: 5%;
@@ -62,17 +70,20 @@
           padding-top: 7px;
           height: 27px;
         }
-        .li-cont{
+
+        .li-cont {
           float: left;
           width: 95%;
           position: relative;
         }
-        &:after{
-          content:"";
+
+        &:after {
+          content: "";
           display: block;
           clear: both;
         }
-        a{
+
+        a {
           display: block;
           float: left;
           padding: 0 5px;
@@ -81,17 +92,20 @@
           margin-top: 7px;
           position: relative;
           z-index: 2;
-          &.active{
+
+          &.active {
             color: #fff;
-            background: #ffa000;
+            background: $a_active_color;
             border-radius: 5px;
           }
+
           position: relative;
         }
-        .dropdown-box{
+
+        .dropdown-box {
           overflow: hidden;
           position: absolute;
-          top:30px;
+          top: 30px;
           left: 5%;
           border: 1px solid #ccc;
           border-radius: 5px;
@@ -100,35 +114,174 @@
           display: none;
           z-index: 10;
           width: 95%;
-          a{
+
+          a {
 
           }
-          &.active{
+
+          &.active {
             display: block;
           }
         }
 
       }
     }
-    .div-housing_features{
-      .div-orientation{
+
+    .div-housing_features {
+      .div-orientation {
         width: 102px;
         height: 20px;
         padding-top: 5px;
         float: left;
         margin-right: 10px;
-        select.select-orientation{
+
+        select.select-orientation {
           width: 102px;
           height: 23px;
           line-height: 23px;
           padding: 0px 5px 3px 0;
         }
       }
-      .ten_minutes_underground{
+
+      .ten_minutes_underground {
         float: left;
         width: 150px;
         padding-top: 7px;
         cursor: pointer;
+      }
+    }
+  }
+
+  //方圆列表
+  .rooms-div {
+    margin-top: 20px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    .room-box {
+      overflow: hidden;
+      padding: 25px 0;
+      line-height: 20px;
+      border-bottom: 1px dotted #ccc;
+      margin: 0 14px;
+      position: relative;
+      z-index: 1;
+
+      .room-cont {
+        //缩略图
+        .room-thumb {
+          float: left;
+          width: 264px;
+          height: 198px;
+          border: solid 1px #ccc;
+          position: relative;
+          margin-right: 15px;
+
+          img {
+            width: 264px;
+            height: 198px;
+            vertical-align: top;
+          }
+        }
+
+        .room-detail-wrap {
+          width: 460px;
+          float: left;
+          text-align: left;
+          border-right: dotted 1px #ccc;
+          height: 200px;
+          position: relative;
+          a.title {
+            font-size: 20px;
+            font-weight: 550;
+            position: relative;
+            display: inline-block;
+            line-height: 24px;
+            margin-bottom: 10px;
+          }
+
+          .housing_detection {
+            padding: 4px 0 17px 0;
+            span {
+              background: #f2f8f1;
+              color: #86ba7b;
+              font-size: 13px;
+              line-height: 32px;
+              display: inline-block;
+              padding: 0 15px;
+              font-weight: normal;
+              border-radius: 4px;
+              margin-right: 10px;
+            }
+          }
+          .detail{
+            .detail-cont{
+              border-radius: 5px;
+              background: #f8f8f8;
+              padding: 5px 10px;
+              margin: 0 63px 20px 0;
+              color: #4c4c4c;
+              position: relative;
+              line-height: 27px;
+              .detail-a{
+
+              }
+            }
+            .detail-features{
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              span{
+                border-radius: 5px;
+                font-size: 14px;
+                padding: 0 5px;
+                line-height: 28px;
+                display: inline-block;
+                margin: 0 3px 0 0;
+                float: left;
+                color: #999;
+                border: solid 1px #999;
+              }
+            }
+          }
+        }
+        .room-price-wrap{
+          width: 330px;
+          float: right;
+          padding: 60px 0 0 0;
+          height: 127px;
+          position: relative;
+          text-align: center;
+          .room-price-wrap-cont{
+            font-size: 30px;
+            color: $a_active_color;
+            height: 32px;
+            line-height: 32px;
+            margin-bottom: 5px;
+            .price{
+              @extend .room-price-wrap-cont;
+            }
+            .month{
+              color: $a_active_color;
+            }
+          }
+          .view-more{
+            border: solid 1px #a5a3a3;
+            height: 33px;
+            line-height: 33px;
+            text-align: center;
+            display: block;
+            border-radius: 5px;
+            width: 72%;
+            margin: 60px auto 0;
+            &:hover{
+              background-color: $a_active_color;
+              color: #fff;
+              border-color: $a_active_color;
+            }
+          }
+        }
       }
     }
   }

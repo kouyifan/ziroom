@@ -13,7 +13,8 @@ interface RoomInterface {
     public function add_room();
     //select
     public function selectRoomData();
-
+    //room detail
+    public function getRoomDetail($id);
 
 }
 

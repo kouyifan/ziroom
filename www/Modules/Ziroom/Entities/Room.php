@@ -31,4 +31,19 @@ class Room extends Model
         'begin_time',
         'end_time'
     ];
+
+    public function roomSlaves()
+    {
+        return $this->hasMany('Modules\Ziroom\Entities\RoomsSlave','room_id');
+    }
+
+    public function roomPerson(){
+        return $this->hasMany('Modules\Ziroom\Entities\RoomsPerson','room_id');
+    }
+
+    public function roomAsset(){
+        return $this->hasOne('Modules\Ziroom\Entities\Asset','id','thumb');
+    }
+
+
 }

@@ -6,8 +6,9 @@
  */
 
 require('./bootstrap');
-
+require('./functions');
 // window.Vue = require('vue');
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -30,4 +31,12 @@ require('./bootstrap');
 
 // const app = new Vue({
 //     el: '#app'
+// });
+
+
+
+// require(['./lightgallery.js'], function() {
+//   require(["./lightgallery.js/lib/lg-zoom.js", "./lightgallery.js/lib/lg-thumbnail.js"], function(){
+//     lightGallery(document.getElementById('lightgallery'));
+//   });
 // });

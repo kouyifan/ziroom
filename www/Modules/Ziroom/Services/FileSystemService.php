@@ -109,6 +109,22 @@ class FileSystemService{
         return implode(',',$res);
     }
 
+    //获得图集
+    public function get_room_img_list($imgs){
+
+        $asset_model = new \Modules\Ziroom\Entities\Asset();
+        if (!empty($imgs) && !is_array($imgs)) $imgs =  explode(',',$imgs);
+
+        $imgs = array_map(function($v){
+            return str_replace(',,,,,,,,','',$v);
+        },$imgs);
+        $assets = $asset_model->whereIn('id',$imgs)->get();
+        foreach ($assets as $asset){
+            $asset->img_path = $this->_get_file_url($asset->file_path,$asset->disk);
+        }
+        return $assets;
+    }
+
     //文件生成入库，返回ID
     public function _insert_asset_file($insert = []){
         $file_hash = $this->_get_file_hash($insert['file_path'],$this->disk);
