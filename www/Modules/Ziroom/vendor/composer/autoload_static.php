@@ -11,6 +11,10 @@ class ComposerStaticInit4f6caf19d5a0d5860c1fc7295167731a
     );
 
     public static $prefixLengthsPsr4 = array (
+        'm' => 
+        array (
+            'mikehaertl\\shellcommand\\' => 24,
+        ),
         'M' => 
         array (
             'Modules\\Ziroom\\' => 15,
@@ -18,6 +22,10 @@ class ComposerStaticInit4f6caf19d5a0d5860c1fc7295167731a
     );
 
     public static $prefixDirsPsr4 = array (
+        'mikehaertl\\shellcommand\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mikehaertl/php-shellcommand/src',
+        ),
         'Modules\\Ziroom\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',

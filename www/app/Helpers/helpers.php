@@ -96,3 +96,18 @@ if (!function_exists('fn_get_file_basename')) {
         return $pathinfo['basename'];
     }
 }
+
+function insert_db(){
+
+    $faker = \Faker\Factory::create();
+    for ($i = 0 ; $i < 10 ; $i++){
+        $insert = [
+            'name'    => $faker->name,
+            'email' =>  $faker->email,
+            'age'   =>  $faker->numberBetween(10,40),
+            'text'  =>  $faker->text(200)
+        ];
+        $id = \Illuminate\Support\Facades\DB::connection('my_pc')->table('users')->insertGetId($insert);
+    }
+    return $id;
+}

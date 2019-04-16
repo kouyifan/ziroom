@@ -9,8 +9,8 @@ class ElasticSearchService{
 
     public function __construct()
     {
-        $this->es_client = ClientBuilder::create()->setHosts(['127.0.0.1:9200'])->build();
-//        $this->es_client = ClientBuilder::create()->setHosts(['elasticsearch.koukousky.com:80'])->build();
+//        $this->es_client = ClientBuilder::create()->setHosts(['127.0.0.1:9200'])->build();
+        $this->es_client = ClientBuilder::create()->setHosts(['elasticsearch.koukousky.com:80'])->build();
     }
     /*
      * 建立索引

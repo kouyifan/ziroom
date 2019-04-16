@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.10",
+        "amphp/parallel": "^1.1",
         "barryvdh/laravel-ide-helper": "^2.6",
         "elasticsearch/elasticsearch": "6.0",
         "fideloper/proxy": "^4.0",
